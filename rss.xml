@@ -6,9 +6,44 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 29 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>도사초등학교 영어과외, 노래와 챈트로 즐겁게</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-dosa-es-yeongeo-chant.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-dosa-es-yeongeo-chant.html</guid>
+    <description>영어를 어렵고 지루하게 느끼는 도사초등학교 학생을 위해 노래와 챈트로 단어와 표현을 즐겁게 익히는 방법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>효산고등학교 수학과외, 미분 기초 개념 잡기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-hyosan-hs-suhak-mibun.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-hyosan-hs-suhak-mibun.html</guid>
+    <description>미분계수와 도함수의 뜻이 헷갈리고 접선의 방정식과 극값 문제에서 막히는 효산고등학교 학생을 위해 미분 기초를 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>별량중학교 국어과외, 수필 읽기와 감상 포인트</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-byeollyang-ms-gugeo-supil.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-byeollyang-ms-gugeo-supil.html</guid>
+    <description>수필은 쉬워 보이는데 글쓴이의 깨달음과 표현 방식을 묻는 문제에서 틀리는 별량중학교 학생을 위해 수필 읽는 방법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천대석초등학교 수학과외, 약수와 배수 원리부터</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-daeseok-es-suhak-yaksu.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-daeseok-es-suhak-yaksu.html</guid>
+    <description>약수와 배수, 최대공약수와 최소공배수가 헷갈리고 문장제에서 막히는 순천대석초등학교 학생을 위해 원리부터 차근차근 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천팔마고등학교 영어과외, 수능 어휘 효율적으로 외우기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-palma-hs-yeongeo-eohwi.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-palma-hs-yeongeo-eohwi.html</guid>
+    <description>영어 단어를 외워도 금방 잊고 지문 속에서 뜻이 떠오르지 않는 순천팔마고등학교 학생을 위해 수능 어휘를 효율적으로 외우는 방법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천남초등학교 수학과외, 시간과 단위 계산 쉽게</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-nam-es-suhak-sigan-danwi.html</link>
