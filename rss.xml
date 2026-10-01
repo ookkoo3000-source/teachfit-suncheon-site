@@ -6,9 +6,44 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 30 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천부영초등학교 국어과외, 독서 감상문 쉽게 쓰기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-buyeong-es-gugeo-dokseogamsang.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-buyeong-es-gugeo-dokseogamsang.html</guid>
+    <description>책을 읽고 감상문을 쓰라고 하면 줄거리만 길게 쓰는 순천부영초등학교 학생을 위해 독서 감상문을 쉽게 쓰는 방법을 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>한국바둑고등학교 수학과외, 경우의 수 기초 정리</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-baduk-hs-suhak-gyeongusu.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-baduk-hs-suhak-gyeongusu.html</guid>
+    <description>합의 법칙과 곱의 법칙이 헷갈리고 순열과 조합을 언제 써야 할지 모르는 한국바둑고등학교 학생을 위해 경우의 수 단원을 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천삼산중학교 영어과외, 조동사 의미와 쓰임 정리</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-samsan-ms-yeongeo-jodongsa.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-samsan-ms-yeongeo-jodongsa.html</guid>
+    <description>can, must, should, have to의 의미 차이와 부정형이 헷갈리는 순천삼산중학교 학생을 위해 조동사를 비교하며 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천봉화초등학교 수학과외, 문장제 문제 해결 순서</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-bonghwa-es-suhak-munjangje.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-bonghwa-es-suhak-munjangje.html</guid>
+    <description>계산은 잘하는데 문장으로 된 문제만 나오면 무엇을 구해야 할지 모르는 순천봉화초등학교 학생을 위해 문장제 해결 순서를 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천효천고등학교 국어과외, 고전시가 읽는 법</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-hyocheon-hs-gugeo-gojeonsiga.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-hyocheon-hs-gugeo-gojeonsiga.html</guid>
+    <description>고전시가의 옛말과 낯선 표현 때문에 화자의 정서를 파악하지 못하는 순천효천고등학교 학생을 위해 고전시가 감상법을 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>도사초등학교 영어과외, 노래와 챈트로 즐겁게</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-dosa-es-yeongeo-chant.html</link>
