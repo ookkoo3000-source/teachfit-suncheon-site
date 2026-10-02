@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>순천강남여자고등학교 수학과외, 적분 기초 개념 잡기 | 티치핏순천</title>
+<meta name="description" content="부정적분과 정적분의 차이가 헷갈리고 넓이 문제에서 부호를 놓치는 순천강남여자고등학교 학생을 위해 적분 기초를 정리했어요.">
+<link rel="canonical" href="https://suncheon.slovrest.com/blog/suncheon-gangnam-girls-hs-suhak-jeokbun.html">
+<link rel="alternate" type="application/rss+xml" title="티치핏순천 블로그" href="https://suncheon.slovrest.com/rss.xml">
+<meta name="naver-site-verification" content="9b1563587615d3dfc8718aed4be3aafe87c82c42">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css?v=61de403470">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="티치핏순천">
+<meta property="og:title" content="순천강남여자고등학교 수학과외, 적분 기초 개념 잡기 | 티치핏순천">
+<meta property="og:description" content="부정적분과 정적분의 차이가 헷갈리고 넓이 문제에서 부호를 놓치는 순천강남여자고등학교 학생을 위해 적분 기초를 정리했어요.">
+<meta property="og:url" content="https://suncheon.slovrest.com/blog/suncheon-gangnam-girls-hs-suhak-jeokbun.html">
+<meta property="og:image" content="https://suncheon.slovrest.com/blog/img/suncheon-gangnam-girls-hs-suhak-jeokbun.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://suncheon.slovrest.com/blog/img/suncheon-gangnam-girls-hs-suhak-jeokbun.jpg">
+</head>
+<body>
+<div class="band band-suncheon" aria-hidden="true">
+<svg class="band-bg" viewBox="0 0 800 56" preserveAspectRatio="none">
+  <defs><linearGradient id="scBandBg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" style="stop-color:var(--band-top)"/><stop offset="100%" style="stop-color:var(--band-bottom)"/></linearGradient></defs>
+  <rect x="0" y="0" width="800" height="56" fill="url(#scBandBg)"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-soft)" stroke-width="5" opacity=".75"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-hi)" stroke-width="1.2" opacity=".35"/>
+  <g fill="var(--band-ink)" opacity=".35">
+    <ellipse cx="90" cy="52" rx="40" ry="5"/><ellipse cx="260" cy="54" rx="50" ry="5"/><ellipse cx="450" cy="52" rx="36" ry="4"/><ellipse cx="620" cy="54" rx="46" ry="5"/>
+  </g>
+</svg>
+<svg class="band-motif" viewBox="0 0 150 56" preserveAspectRatio="xMaxYMax meet">
+  <circle cx="112" cy="20" r="8" fill="var(--band-sun)"/>
+  <g fill="none" stroke="var(--band-hi)" stroke-width="1.6" stroke-linecap="round"><path d="M40 16 q5 -4 10 0 q5 -4 10 0"/><path d="M64 8 q4 -3 8 0 q4 -3 8 0"/></g>
+  <g stroke="var(--band-deep)" stroke-width="1.6" stroke-linecap="round">
+    <path d="M96 56 Q 98 40 94 28"/><path d="M106 56 Q 108 42 112 32"/><path d="M118 56 Q 118 44 124 36"/><path d="M130 56 Q 132 46 128 38"/><path d="M142 56 Q 142 46 146 40"/>
+  </g>
+  <g fill="var(--band-ink)">
+    <ellipse cx="94" cy="26" rx="3" ry="7" transform="rotate(-14 94 26)"/><ellipse cx="112" cy="30" rx="3" ry="7" transform="rotate(18 112 30)"/>
+    <ellipse cx="124" cy="34" rx="2.6" ry="6" transform="rotate(24 124 34)"/><ellipse cx="128" cy="36" rx="2.6" ry="6" transform="rotate(-18 128 36)"/><ellipse cx="146" cy="38" rx="2.4" ry="5.5" transform="rotate(22 146 38)"/>
+  </g>
+</svg>
+</div>
+<div class="topbar">
+  <div class="wrap">
+    <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
+    <a class="phone" href="tel:01031315305">📞 010-3131-5305 (09:00–21:00)</a>
+  </div>
+</div>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="../index.html"><span class="mark">TF</span>티치핏순천</a>
+    <div class="navwrap">
+      <nav class="main">
+        <a href="../index.html">홈</a>
+        <a href="../teachers.html">선생님</a>
+        <a href="../regions.html">순천 학교별 과외</a>
+        <a href="../blog.html" aria-current="page">블로그</a>
+      </nav>
+      <a class="cta-btn" href="../apply.html">무료 상담 신청</a>
+      <button class="menu-btn" aria-label="메뉴">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav-wrap">
+    <nav class="mobile-nav">
+      <a href="../index.html">홈</a>
+      <a href="../teachers.html">선생님</a>
+      <a href="../regions.html">순천 학교별 과외</a>
+      <a href="../blog.html" aria-current="page">블로그</a>
+      <a href="../apply.html">무료 상담 신청</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<nav class="breadcrumb"><a href="../blog.html">블로그</a> / 고등 수학</nav>
+<section class="page-hero post-hero">
+  <span class="eyebrow">2026-10-02 · 고등 수학</span>
+  <h1>순천강남여자고등학교 수학과외, 적분 기초 개념 잡기</h1>
+  <img class="post-cover" src="img/suncheon-gangnam-girls-hs-suhak-jeokbun.webp" width="720" height="720" alt="순천강남여자고등학교 수학과외 1:1 화상과외 안내" loading="eager">
+  <div class="hero-cta"><a class="cta-main" href="../apply.html">30분 무료체험 신청하기 →</a><span>상담·체험 모두 무료</span></div>
+</section>
+<section>
+  <article class="prose blog-prose">
+    <div class="intro-banner">
+  <span class="ib-tag">무료 상담 · 무료 체험</span>
+  <p>학생 학습 상태 진단과 학교 시험 분석을 함께 안내드려요.<br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요.</p>
+  <div class="ib-btns">
+    <a class="ib-kakao" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담 <i>↗</i></a>
+    <a class="ib-apply" href="../apply.html">무료체험 신청 <i>✨</i></a>
+  </div>
+</div><div class="summary-box"><strong>이 글 한눈에 보기</strong><ul><li>순천강남여자고등학교 학생이 적분을 어려워하는 이유</li><li>부정적분의 뜻과 계산</li><li>정적분의 뜻과 성질</li><li>정적분과 넓이</li><li>정적분으로 정의된 함수</li><li><b><mark class="free">30분 무료체험수업</mark></b>으로 먼저 확인해보실 수 있어요.</li></ul></div>
+<p>순천강남여자고등학교 2학년 학생들이 미적분1 과목의 마지막에 만나는 적분 단원은 미분과 짝을 이루는 중요한 단원이에요. 미분을 겨우 익혔는데 적분이 나오면서 부정적분과 정적분, 적분상수, 넓이와 정적분의 관계까지 새로운 개념이 연달아 나와 혼란스러워하는 학생이 많아요.</p><p>특히 적분상수 C를 빠뜨리거나, 정적분 계산에서 위끝과 아래끝을 거꾸로 대입하거나, 그래프가 x축 아래에 있을 때 넓이를 음수로 구하는 실수가 자주 생겨요. 적분은 미분의 반대 과정이라는 핵심을 이해하면 공식이 자연스럽게 연결돼요.</p><p>수능에서도 미분과 적분을 함께 묻는 문항이 꾸준히 출제되기 때문에 기초 개념을 확실히 잡아두는 것이 중요해요. 이 글에서는 순천강남여자고등학교 학생이 적분을 어려워하는 이유, 부정적분의 뜻과 계산, 정적분의 뜻과 성질, 정적분과 넓이, 정적분으로 정의된 함수, 그리고 1:1 화상 수학 수업 활용법까지 차례대로 정리해 드릴게요.</p>
+<div class="pbox"><h2>순천강남여자고등학교 학생이 적분을 어려워하는 이유</h2>
+<p>적분을 어려워하는 첫 번째 이유는 미분과의 관계를 이해하지 못하는 거예요. 적분이 미분의 반대 과정이라는 핵심을 모르면 공식을 따로 외워야 해서 헷갈리기 쉬워요.</p>
+<p>두 번째 이유는 부정적분과 정적분을 구분하지 못하는 거예요. 부정적분은 함수이고 정적분은 하나의 값인데, 이 차이를 모르면 문제가 무엇을 묻는지 정확히 이해할 수 없어요.</p>
+<p>세 번째 이유는 적분상수를 빠뜨리는 거예요. 부정적분을 구할 때 적분상수 C를 붙이지 않거나, 조건으로 C를 구하는 과정을 놓치는 실수가 자주 생겨요.</p>
+<p>네 번째 이유는 정적분 계산에서 실수하는 거예요. 위끝을 대입한 값에서 아래끝을 대입한 값을 빼야 하는데, 순서를 바꾸거나 음수 대입에서 부호를 틀리는 경우가 많아요.</p>
+<p>다섯 번째 이유는 정적분과 넓이를 같은 것으로 생각하는 거예요. 그래프가 x축 아래에 있으면 정적분 값은 음수가 되지만 넓이는 항상 양수예요.</p>
+<p>여섯 번째로, 미분 계산이 흔들리는 경우도 있어요. 적분은 미분을 거꾸로 생각하는 것이라서 미분이 불안하면 적분도 어려워요.</p>
+<p>이런 원인은 미분과의 관계를 이해하고 그래프와 함께 개념을 익히면 충분히 해결할 수 있어요.</p>
+<p>최근 시험지나 문제집에서 틀린 문제를 다시 풀어보면서 개념, 적분상수, 정적분 계산, 넓이 중 어디서 틀렸는지 나눠 보세요.</p>
+<p>미분이 흔들린다면 그 부분부터 먼저 복습하는 것이 적분을 빠르게 잡는 지름길이에요.</p>
+<p>아래에서 부정적분의 뜻과 계산부터 차근차근 살펴볼게요.</p>
+<p>적분의 기초가 잡히면 미적분 전체가 하나로 연결돼요.</p>
+<p>탄탄한 개념은 수능 미적분 문제의 든든한 바탕이 돼요.</p>
+</div><div class="pbox"><h2>부정적분의 뜻과 계산</h2>
+<p>부정적분은 미분하면 주어진 함수가 되는 함수를 찾는 거예요. 함수 F(x)를 미분했을 때 f(x)가 되면, F(x)를 f(x)의 부정적분이라고 해요.</p>
+<p>예를 들어 x제곱을 미분하면 2x가 되니까, 2x의 부정적분은 x제곱이에요. 그런데 x제곱 더하기 3을 미분해도 2x가 되고, x제곱 빼기 5를 미분해도 2x가 돼요.</p>
+<p>상수는 미분하면 0이 되기 때문에, 부정적분에는 어떤 상수가 붙어 있었는지 알 수 없어요. 그래서 부정적분에는 적분상수 C를 붙여 x제곱 더하기 C로 나타내요.</p>
+<p>x의 n제곱의 부정적분은 n 더하기 1분의 1 곱하기 x의 n 더하기 1제곱 더하기 C예요. 지수에 1을 더하고, 더한 수로 나누면 돼요. 미분 공식을 거꾸로 생각한 것이에요.</p>
+<p>상수의 부정적분은 상수 곱하기 x 더하기 C예요. 3의 부정적분은 3x 더하기 C예요.</p>
+<p>다항함수의 부정적분은 각 항을 따로 적분해서 더하면 돼요. 상수배는 밖으로 꺼낼 수 있고, 합과 차는 각각 적분할 수 있어요.</p>
+<p>적분상수 C는 조건이 주어지면 구할 수 있어요. F(0)은 2 같은 조건이 있으면 부정적분 식에 대입해서 C의 값을 정해요.</p>
+<p>부정적분을 구한 뒤에는 미분해서 원래 함수가 나오는지 확인하세요. 미분으로 검산하는 습관이 계산 실수를 잡아줘요.</p>
+<p>도함수가 주어지고 원래 함수를 구하는 문제가 자주 나와요. 도함수를 적분한 뒤 주어진 조건으로 적분상수를 구하면 돼요.</p>
+<p>곱의 형태로 된 식은 먼저 전개한 뒤 항별로 적분하세요. 곱을 그대로 적분하는 공식은 없다는 점을 기억하세요.</p>
+<div class="callout"><strong>핵심 정리</strong>미분과 적분을 짝지어 정리하면 공식을 따로 외우지 않아도 자연스럽게 떠올릴 수 있어요.</div>
+</div><div class="pbox"><h2>정적분의 뜻과 성질</h2>
+<p>정적분은 함수 f(x)의 부정적분 F(x)에 위끝 b를 대입한 값에서 아래끝 a를 대입한 값을 뺀 거예요. 즉 F(b) 빼기 F(a)예요.</p>
+<p>부정적분은 함수이지만, 정적분은 하나의 값이라는 점이 가장 큰 차이예요. 정적분을 계산하면 숫자가 나와요.</p>
+<p>정적분을 계산할 때는 적분상수 C를 쓰지 않아도 돼요. F(b)와 F(a)에 똑같이 C가 들어 있어서 빼면 사라지기 때문이에요.</p>
+<p>계산할 때는 대괄호를 써서 위끝과 아래끝을 표시한 뒤, 위끝을 대입한 값에서 아래끝을 대입한 값을 빼요. 음수를 대입할 때는 괄호를 꼭 써서 부호 실수를 막으세요.</p>
+<p>정적분의 성질도 알아두세요. 위끝과 아래끝이 같으면 정적분은 0이에요. 위끝과 아래끝을 바꾸면 부호가 바뀌어요.</p>
+<p>적분 구간을 나눌 수 있어요. a부터 c까지의 정적분은 a부터 b까지의 정적분과 b부터 c까지의 정적분의 합과 같아요. 이 성질은 구간별로 다르게 정의된 함수를 적분할 때 쓰여요.</p>
+<p>절댓값이 포함된 함수의 정적분은 절댓값 안의 부호가 바뀌는 지점에서 구간을 나누어 계산해요.</p>
+<p>우함수와 기함수의 성질도 유용해요. y축에 대칭인 우함수는 마이너스 a부터 a까지의 정적분이 0부터 a까지의 정적분의 두 배이고, 원점에 대칭인 기함수는 0이에요. 다항함수에서 짝수 차수 항과 홀수 차수 항으로 나누어 생각하면 계산이 간단해져요.</p>
+<p>정적분 계산은 실수가 잦은 부분이라서 한 줄씩 차근차근 쓰는 습관이 중요해요.</p>
+<p>정적분의 성질을 표로 정리하고 대표 문제를 함께 적어두세요.</p>
+<p>정적분을 정확히 계산할 수 있으면 넓이 문제의 기초가 탄탄해져요.</p>
+</div><div class="mid-cta"><strong>우리 아이에게 맞는지 궁금하시다면</strong><br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요. <a class="cta-btn" href="../apply.html">무료체험 신청하기 →</a></div><div class="pbox"><h2>정적분과 넓이</h2>
+<p>정적분은 그래프와 x축 사이의 넓이와 깊은 관계가 있어요. 하지만 정적분 값과 넓이가 항상 같은 것은 아니라는 점을 정확히 알아야 해요.</p>
+<p>함수의 그래프가 x축보다 위에 있으면 정적분 값은 그래프와 x축 사이의 넓이와 같아요.</p>
+<p>그래프가 x축보다 아래에 있으면 정적분 값은 음수가 돼요. 넓이는 항상 양수이므로, 이때는 정적분 값에 마이너스를 붙이거나 절댓값을 취해야 넓이가 돼요.</p>
+<p>그래프가 x축 위아래를 오가는 경우에는 x축과 만나는 점을 기준으로 구간을 나누어 각각의 넓이를 구한 뒤 더해야 해요. 한꺼번에 정적분하면 위와 아래의 넓이가 서로 빼져서 틀린 답이 나와요.</p>
+<p>넓이를 구할 때는 반드시 그래프를 그려보세요. 그래프가 x축과 어디서 만나는지, 어느 구간에서 위에 있고 어느 구간에서 아래에 있는지 확인하는 것이 첫 단계예요.</p>
+<p>두 곡선 사이의 넓이는 위에 있는 함수에서 아래에 있는 함수를 뺀 식을 적분해요. 두 곡선의 교점을 구해 적분 구간을 정하세요.</p>
+<p>두 곡선이 교점에서 위아래가 바뀌면 구간을 나누어 각각 위의 함수에서 아래의 함수를 빼서 적분해야 해요.</p>
+<p>이차함수와 직선으로 둘러싸인 넓이는 자주 출제되는 유형이에요. 교점을 구하고 위아래를 확인한 뒤 적분하면 돼요.</p>
+<p>넓이 문제의 답은 항상 양수여야 해요. 음수가 나오면 위아래를 잘못 정했거나 구간을 나누지 않은 거예요.</p>
+<p>그래프를 그리고 구간을 나누는 습관이 넓이 문제의 실수를 크게 줄여줘요.</p>
+<div class="callout"><strong>핵심 정리</strong>정적분과 넓이의 관계를 정확히 이해하면 적분의 활용 문제를 자신 있게 풀 수 있어요.</div>
+</div><div class="pbox"><h2>정적분으로 정의된 함수</h2>
+<p>정적분의 위끝에 변수 x가 들어 있는 함수를 정적분으로 정의된 함수라고 해요. 이 유형은 수능에서 자주 출제되는 중요한 유형이에요.</p>
+<p>a부터 x까지 f(t)를 적분한 함수를 x에 대하여 미분하면 f(x)가 돼요. 적분한 것을 다시 미분하면 원래 함수로 돌아온다는 원리예요.</p>
+<p>이 성질을 이용하면 정적분으로 정의된 함수가 주어졌을 때 양변을 미분해서 f(x)를 구할 수 있어요.</p>
+<p>또 x에 a를 대입하면 위끝과 아래끝이 같아져서 정적분 값이 0이 돼요. 이 성질로 미지수를 구하는 경우가 많아요.</p>
+<p>문제에 정적분으로 정의된 함수가 나오면 두 가지를 기억하세요. 첫째, 양변을 미분한다. 둘째, 위끝과 아래끝이 같아지도록 x에 값을 대입한다.</p>
+<p>정적분 값이 상수인 경우도 있어요. 적분 구간이 상수로 정해진 정적분은 하나의 수이므로, k 같은 문자로 놓고 식을 세우면 풀 수 있어요.</p>
+<p>정적분으로 정의된 함수의 극값을 구하는 문제도 자주 나와요. 미분해서 나온 도함수의 부호 변화를 조사하면 극대와 극소를 찾을 수 있어요.</p>
+<p>이 유형은 미분과 적분의 관계를 가장 잘 보여주는 유형이에요. 개념을 확실히 이해하면 고난도 문제도 차근차근 풀 수 있어요.</p>
+<p>교과서와 문제집의 대표 문제를 유형별로 정리하고 반복해서 풀어보세요.</p>
+<p>틀린 문제는 미분하는 과정과 대입하는 과정 중 어디서 막혔는지 확인하세요.</p>
+<p>미분과 적분을 자유롭게 오가는 힘이 생기면 미적분 문제가 훨씬 수월해져요.</p>
+</div><div class="pbox"><h2>1:1 화상 수학 수업으로 적분 잡기</h2>
+<p>적분은 미분과의 관계를 그래프와 함께 설명할 때 가장 잘 이해돼요. 1:1 수업에서는 선생님이 학생이 개념을 어떻게 이해하고 있는지 직접 확인하고, 막히는 부분을 바로 짚어줄 수 있어요.</p>
+<p>화상 수업에서는 화면 공유와 필기 도구를 이용해 그래프를 그리며 정적분과 넓이의 관계를 설명하고, 적분 계산을 한 줄씩 함께 써요. 학생이 푼 과정을 함께 보며 부호 실수가 생기는 지점을 확인할 수 있어요.</p>
+<p>순천강남여자고등학교 학생이라면 학교 진도와 시험 일정에 맞춰 수업을 구성할 수 있어요. 시험 범위와 학교 프린트를 기준으로 서술형까지 함께 대비해요.</p>
+<p>이동 시간이 없어서 방과 후와 야간자율학습 전후 시간을 효율적으로 쓸 수 있고, 수업은 녹화되어 복습할 때 다시 볼 수 있어요.</p>
+<p>티치핏순천에서는 상담할 때 학년, 최근 내신과 모의고사 성적, 어려워하는 단원을 먼저 여쭤봐요. 미분이 흔들린다면 그 부분부터 보완하는 계획을 세워 드려요.</p>
+<p>적분 이후에는 수능 공통 과목 전체를 정리하고 선택 과목까지 이어서 학습할 수 있어서 수능 수학을 체계적으로 준비할 수 있어요.</p>
+<p>수업 후에는 배운 개념과 문제, 과제를 정리해 드려서 다음 수업 전까지 스스로 복습할 수 있어요.</p>
+<p>적분이 고민이시라면 <mark class="free">30분 무료체험수업</mark>으로 먼저 수업 방식을 확인해 보세요. 최근 시험지나 문제집을 준비해 오시면 약점 분석부터 함께 해볼 수 있어요.</p>
+<p>상담과 체험은 모두 무료예요. 미분과 적분이 하나로 연결되면 수능 수학이 훨씬 명확해질 거예요.</p>
+<p>순천 지역에서 학원을 오가는 시간이 부담스러운 학생도 집에서 바로 수업을 받을 수 있어서, 그 시간을 문제 풀이에 쓸 수 있어요.</p>
+<p>그래프로 이해한 개념은 수학에 대한 자신감을 오래 지켜줘요.</p>
+<p><strong>Q. 적분 단원만 집중해서 수업할 수 있나요?</strong><br>
+네, 학생이 어려워하는 단원에 맞춰 부정적분부터 정적분으로 정의된 함수까지 집중적으로 수업할 수 있어요.</p>
+<p><strong>Q. 넓이 문제에서 자꾸 틀려요.</strong><br>
+그래프를 먼저 그리고 x축과의 교점에서 구간을 나누는 습관을 반복 연습해서 부호 실수를 줄여 드려요.</p>
+<p><strong>Q. 수능 대비도 함께 할 수 있나요?</strong><br>
+네, 내신 기간에는 학교 시험을, 그 외 기간에는 수능 유형과 시간 관리 연습을 중심으로 계획해 드려요.</p>
+</div>
+  </article>
+</section>
+<section>
+  <div class="cta-big">
+  <div class="cta-big-text">
+    <span class="cta-badge">무료</span>
+    <h2>30분 무료체험수업 먼저 받아보세요</h2>
+    <p>이름과 연락처만 남기시면 24시간 이내에 담당자가 연락드려요. 체험 후 마음에 들 때만 결정하세요.</p>
+  </div>
+  <div class="cta-big-btns">
+    <a class="cta-main" href="../apply.html">무료체험 신청하기 →</a>
+    <a class="cta-sub" href="tel:01031315305">전화 010-3131-5305</a>
+    <a class="cta-sub" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담</a>
+  </div>
+</div>
+</section>
+<p style="margin-top:14px;"><a href="../blog.html">← 블로그 목록으로</a></p>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="../index.html" style="margin-bottom:10px;"><span class="mark">TF</span>티치핏순천</a>
+      <div class="fnav">
+        <a href="../services.html">화상과외 소개</a><a href="../process.html">매칭 방식</a><a href="../teachers.html">선생님</a><a href="../regions.html">순천 학교별 과외</a><a href="../blog.html">블로그</a>
+      </div>
+      <p class="disclaimer">전화 010-3131-5305 · 운영시간 09:00–21:00 · 상담 및 매칭 신청은 무료이며, 실제 수업 진행 여부와 비용은 상담 후 안내해 드립니다. 사업자 정보는 확정 후 별도 고지 예정입니다.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js?v=6af2d58710"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
+<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:01031315305">📞 전화상담</a>
+  <a class="msc-apply" href="../apply.html">무료 상담 신청</a>
+</div>
+<div class="q-modal" id="qModal" aria-hidden="true">
+  <form class="quick" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[티치핏순천] 팝업 상담 신청">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://suncheon.slovrest.com/thanks.html">
+    <input type="hidden" name="신청경로" value="팝업">
+    <input type="hidden" name="과목" class="q-in-sub">
+    <input type="hidden" name="학년" class="q-in-grade">
+    <button type="button" class="q-close" aria-label="닫기">✕</button>
+    <div class="q-step q-s1 on">
+      <span class="q-badge">30분 무료체험수업</span>
+      <div class="q-title">어떤 과목이 고민이세요?<small>과목만 고르시면 순천 학교 진도에 맞는 선생님을 찾아 연락드려요</small></div>
+      <div class="q-tiles"><button type="button" data-s="수학과외" data-h="빠진 단원부터 찾아 채워요"><b>📐</b>수학과외<i>빠진 단원부터 찾아 채워요</i></button><button type="button" data-s="영어과외" data-h="단어·문법·서술형까지"><b>🔤</b>영어과외<i>단어·문법·서술형까지</i></button><button type="button" data-s="국어과외" data-h="교과서 지문·문법·독해"><b>📖</b>국어과외<i>교과서 지문·문법·독해</i></button><button type="button" data-s="초등 전과목" data-h="기초 학습 습관부터"><b>✏️</b>초등 전과목<i>기초 학습 습관부터</i></button><button type="button" data-s="과학·사회" data-h="개념 정리와 서술형 대비"><b>🔬</b>과학·사회<i>개념 정리와 서술형 대비</i></button><button type="button" data-s="자기주도학습" data-h="공부 계획과 습관 만들기"><b>🧭</b>자기주도학습<i>공부 계획과 습관 만들기</i></button></div>
+      <div class="q-alt"><a href="tel:01031315305">📞 010-3131-5305</a><a href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카톡 상담</a></div>
+    </div>
+    <div class="q-step q-s2">
+      <button type="button" class="q-back">← 다시 고르기</button>
+      <div class="q-chosen"></div><div class="q-hint"></div>
+      <span class="q-lbl">학년</span>
+      <div class="q-chips"><button type="button">초1~3</button><button type="button">초4~6</button><button type="button">중1</button><button type="button">중2</button><button type="button">중3</button><button type="button">고1</button><button type="button">고2</button><button type="button">고3</button></div>
+      <span class="q-lbl">연락처</span>
+      <div class="q-row2"><input type="text" name="학생이름" placeholder="학생 이름 *" required><input type="tel" name="연락처" placeholder="연락처 *" required></div>
+      <input type="text" name="학교" placeholder="재학 중인 학교 (선택)">
+      <button type="submit" class="q-submit">무료체험 신청하기</button>
+      <p class="q-note">상담·체험 모두 무료 · 24시간 이내 연락드려요</p>
+    </div>
+  </form>
+</div>
+<button type="button" class="q-fab" id="qFab">⚡ 무료체험 신청</button>
+
+</body>
+</html>
