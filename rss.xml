@@ -6,9 +6,44 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 02 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천연향초등학교 영어과외, 파닉스로 영어 읽기 시작</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-yeonhyang-es-yeongeo-phonics.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-yeonhyang-es-yeongeo-phonics.html</guid>
+    <description>알파벳은 아는데 영어 단어를 소리 내어 읽지 못하는 순천연향초등학교 학생을 위해 파닉스 단계별 학습법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천성남초등학교 수학과외, 분수의 덧셈과 뺄셈</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-seongnam-es-suhak-bunsu-deotsem.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-seongnam-es-suhak-bunsu-deotsem.html</guid>
+    <description>분모가 다른 분수를 더할 때 분모끼리 더하거나 통분 과정에서 실수하는 순천성남초등학교 학생을 위해 분수 덧셈과 뺄셈을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천신흥중학교 국어과외, 품사 구분 확실하게 하기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-sinheung-ms-gugeo-pumsa.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-sinheung-ms-gugeo-pumsa.html</guid>
+    <description>9품사를 외웠는데도 동사와 형용사, 관형사와 형용사를 헷갈리는 순천신흥중학교 학생을 위해 품사 구분 기준과 판단법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천연향중학교 수학과외, 일차방정식 풀이와 활용</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-yeonhyang-ms-suhak-ilcha-bangjeongsik.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-yeonhyang-ms-suhak-ilcha-bangjeongsik.html</guid>
+    <description>일차방정식에서 이항할 때 부호를 바꾸지 않거나 활용 문제에서 식을 세우지 못하는 순천연향중학교 학생을 위해 풀이 순서를 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천여자고등학교 영어과외, 빈칸추론 근거 찾는 법</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-girls-hs-yeongeo-binkan-churon.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-girls-hs-yeongeo-binkan-churon.html</guid>
+    <description>모의고사 빈칸추론에서 해석은 되는데 답을 고르지 못하고 시간을 많이 쓰는 순천여자고등학교 학생을 위해 근거 찾는 풀이법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천승남중학교 국어과외, 글 요약하기 전략</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-seungnam-ms-gugeo-yoyak.html</link>
