@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>순천왕운중학교 수학과외, 삼각형의 합동 조건과 작도 | 티치핏순천</title>
+<meta name="description" content="삼각형의 합동 조건 SSS, SAS, ASA를 외웠는데도 어떤 조건인지 판단하지 못하고 합동 증명 서술형에서 막히는 순천왕운중학교 학생을 위해 정리했어요.">
+<link rel="canonical" href="https://suncheon.slovrest.com/blog/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.html">
+<link rel="alternate" type="application/rss+xml" title="티치핏순천 블로그" href="https://suncheon.slovrest.com/rss.xml">
+<meta name="naver-site-verification" content="9b1563587615d3dfc8718aed4be3aafe87c82c42">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css?v=61de403470">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="티치핏순천">
+<meta property="og:title" content="순천왕운중학교 수학과외, 삼각형의 합동 조건과 작도 | 티치핏순천">
+<meta property="og:description" content="삼각형의 합동 조건 SSS, SAS, ASA를 외웠는데도 어떤 조건인지 판단하지 못하고 합동 증명 서술형에서 막히는 순천왕운중학교 학생을 위해 정리했어요.">
+<meta property="og:url" content="https://suncheon.slovrest.com/blog/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.html">
+<meta property="og:image" content="https://suncheon.slovrest.com/blog/img/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://suncheon.slovrest.com/blog/img/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.jpg">
+</head>
+<body>
+<div class="band band-suncheon" aria-hidden="true">
+<svg class="band-bg" viewBox="0 0 800 56" preserveAspectRatio="none">
+  <defs><linearGradient id="scBandBg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" style="stop-color:var(--band-top)"/><stop offset="100%" style="stop-color:var(--band-bottom)"/></linearGradient></defs>
+  <rect x="0" y="0" width="800" height="56" fill="url(#scBandBg)"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-soft)" stroke-width="5" opacity=".75"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-hi)" stroke-width="1.2" opacity=".35"/>
+  <g fill="var(--band-ink)" opacity=".35">
+    <ellipse cx="90" cy="52" rx="40" ry="5"/><ellipse cx="260" cy="54" rx="50" ry="5"/><ellipse cx="450" cy="52" rx="36" ry="4"/><ellipse cx="620" cy="54" rx="46" ry="5"/>
+  </g>
+</svg>
+<svg class="band-motif" viewBox="0 0 150 56" preserveAspectRatio="xMaxYMax meet">
+  <circle cx="112" cy="20" r="8" fill="var(--band-sun)"/>
+  <g fill="none" stroke="var(--band-hi)" stroke-width="1.6" stroke-linecap="round"><path d="M40 16 q5 -4 10 0 q5 -4 10 0"/><path d="M64 8 q4 -3 8 0 q4 -3 8 0"/></g>
+  <g stroke="var(--band-deep)" stroke-width="1.6" stroke-linecap="round">
+    <path d="M96 56 Q 98 40 94 28"/><path d="M106 56 Q 108 42 112 32"/><path d="M118 56 Q 118 44 124 36"/><path d="M130 56 Q 132 46 128 38"/><path d="M142 56 Q 142 46 146 40"/>
+  </g>
+  <g fill="var(--band-ink)">
+    <ellipse cx="94" cy="26" rx="3" ry="7" transform="rotate(-14 94 26)"/><ellipse cx="112" cy="30" rx="3" ry="7" transform="rotate(18 112 30)"/>
+    <ellipse cx="124" cy="34" rx="2.6" ry="6" transform="rotate(24 124 34)"/><ellipse cx="128" cy="36" rx="2.6" ry="6" transform="rotate(-18 128 36)"/><ellipse cx="146" cy="38" rx="2.4" ry="5.5" transform="rotate(22 146 38)"/>
+  </g>
+</svg>
+</div>
+<div class="topbar">
+  <div class="wrap">
+    <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
+    <a class="phone" href="tel:01031315305">📞 010-3131-5305 (09:00–21:00)</a>
+  </div>
+</div>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="../index.html"><span class="mark">TF</span>티치핏순천</a>
+    <div class="navwrap">
+      <nav class="main">
+        <a href="../index.html">홈</a>
+        <a href="../teachers.html">선생님</a>
+        <a href="../regions.html">순천 학교별 과외</a>
+        <a href="../blog.html" aria-current="page">블로그</a>
+      </nav>
+      <a class="cta-btn" href="../apply.html">무료 상담 신청</a>
+      <button class="menu-btn" aria-label="메뉴">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav-wrap">
+    <nav class="mobile-nav">
+      <a href="../index.html">홈</a>
+      <a href="../teachers.html">선생님</a>
+      <a href="../regions.html">순천 학교별 과외</a>
+      <a href="../blog.html" aria-current="page">블로그</a>
+      <a href="../apply.html">무료 상담 신청</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<nav class="breadcrumb"><a href="../blog.html">블로그</a> / 중등 수학</nav>
+<section class="page-hero post-hero">
+  <span class="eyebrow">2026-10-04 · 중등 수학</span>
+  <h1>순천왕운중학교 수학과외, 삼각형의 합동 조건과 작도</h1>
+  <img class="post-cover" src="img/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.webp" width="720" height="720" alt="순천왕운중학교 수학과외 1:1 화상과외 안내" loading="eager">
+  <div class="hero-cta"><a class="cta-main" href="../apply.html">30분 무료체험 신청하기 →</a><span>상담·체험 모두 무료</span></div>
+</section>
+<section>
+  <article class="prose blog-prose">
+    <div class="intro-banner">
+  <span class="ib-tag">무료 상담 · 무료 체험</span>
+  <p>학생 학습 상태 진단과 학교 시험 분석을 함께 안내드려요.<br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요.</p>
+  <div class="ib-btns">
+    <a class="ib-kakao" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담 <i>↗</i></a>
+    <a class="ib-apply" href="../apply.html">무료체험 신청 <i>✨</i></a>
+  </div>
+</div><div class="summary-box"><strong>이 글 한눈에 보기</strong><ul><li>순천왕운중학교 학생이 합동을 어려워하는 이유</li><li>작도의 뜻과 기본 작도</li><li>삼각형의 작도</li><li>삼각형의 합동 조건</li><li>합동 증명 쓰기</li><li><b><mark class="free">30분 무료체험수업</mark></b>으로 먼저 확인해보실 수 있어요.</li></ul></div>
+<p>순천왕운중학교 1학년 학생들이 2학기 수학에서 처음 만나는 증명 단원이 삼각형의 작도와 합동이에요. SSS, SAS, ASA라는 합동 조건의 이름은 외웠지만, 실제 문제에서 두 삼각형이 어떤 조건으로 합동인지 판단하지 못하거나, SAS에서 끼인각이 아닌 각을 쓰는 실수가 자주 나와요.</p><p>작도 문제에서는 눈금 없는 자와 컴퍼스로 무엇을 할 수 있는지 헷갈리고, 합동을 증명하는 서술형에서는 무엇부터 써야 할지 몰라 막히는 경우가 많아요. 삼각형의 합동은 중학교 기하의 출발점이에요.</p><p>2학년의 이등변삼각형과 사각형의 성질, 도형의 닮음까지 모두 합동을 이용해 증명하기 때문에 지금 확실히 이해해 두는 것이 정말 중요해요. 합동 조건이 왜 그 세 가지인지 작도와 연결해서 이해하고, 대응을 정확히 짝짓는 습관을 들이면 이 단원은 충분히 자신 있게 해결할 수 있어요.</p><p>이 글에서는 순천왕운중학교 학생이 합동을 어려워하는 이유, 작도의 뜻과 기본 작도, 삼각형의 작도, 삼각형의 합동 조건, 합동 증명 쓰기, 그리고 1:1 화상 수학 수업 활용법까지 차례대로 정리해 드릴게요.</p>
+<div class="pbox"><h2>순천왕운중학교 학생이 합동을 어려워하는 이유</h2>
+<p>합동을 어려워하는 첫 번째 이유는 합동 조건의 이름만 외우고 의미를 모르는 거예요. SAS가 두 변과 그 끼인각이라는 의미를 정확히 모르면 끼인각이 아닌 각으로 합동을 판단하는 실수를 하게 돼요.</p>
+<p>두 번째 이유는 대응하는 꼭짓점과 변을 잘못 짝짓는 거예요. 두 삼각형의 방향이 다르면 어느 변이 어느 변과 대응하는지 헷갈려서 합동 기호를 잘못 쓰게 돼요.</p>
+<p>세 번째 이유는 작도의 원리를 모르는 거예요. 눈금 없는 자는 직선을 긋고 선분을 연장하는 데만, 컴퍼스는 원을 그리고 길이를 옮기는 데만 쓴다는 규칙을 모르면 작도 문제를 풀 수 없어요.</p>
+<p>네 번째 이유는 삼각형이 하나로 정해지는 조건을 헷갈리는 거예요. 세 각의 크기만 주어지면 삼각형의 모양은 정해지지만 크기는 정해지지 않는다는 점을 놓치는 경우가 많아요.</p>
+<p>다섯 번째 이유는 증명을 어떻게 써야 할지 모르는 거예요. 무엇이 같은지, 그 근거가 무엇인지, 어떤 합동 조건인지를 차례로 써야 하는데, 순서를 모르면 서술형에서 점수를 잃어요.</p>
+<p>여섯 번째로, 맞꼭지각이나 공통인 변처럼 숨어 있는 조건을 찾지 못하는 경우도 있어요. 문제에 직접 주어지지 않은 같은 변과 같은 각을 찾아야 합동을 보일 수 있어요.</p>
+<p>이런 어려움은 작도로 합동 조건의 원리를 이해하고, 대응을 표시하며 증명 쓰는 순서를 익히면 충분히 해결할 수 있어요.</p>
+<p>최근에 푼 문제집이나 단원평가를 다시 살펴보세요. 작도, 삼각형이 정해지는 조건, 합동 조건 판단, 증명 쓰기 중 어디서 자주 틀리는지 확인하면 약점이 보여요.</p>
+<p>각의 성질과 맞꼭지각, 평행선의 동위각과 엇각이 흔들린다면 그 부분부터 짧게 복습하는 것이 좋아요. 합동 증명에서 자주 쓰이는 근거이기 때문이에요.</p>
+<p>아래에서 작도의 뜻과 기본 작도부터 차근차근 살펴볼게요.</p>
+<p>합동을 확실히 이해하면 중학교 기하 단원 전체가 쉬워져요.</p>
+<p>근거를 들어 증명하는 힘은 수학적 사고력의 가장 중요한 바탕이 돼요.</p>
+</div><div class="pbox"><h2>작도의 뜻과 기본 작도</h2>
+<p>작도는 눈금 없는 자와 컴퍼스만을 사용해 도형을 그리는 거예요. 각도기나 눈금 있는 자는 쓰지 않아요.</p>
+<p>눈금 없는 자는 두 점을 연결하는 선분을 긋거나 선분을 연장하는 데 사용해요. 길이를 재는 데는 쓸 수 없어요.</p>
+<p>컴퍼스는 원을 그리거나 선분의 길이를 재어 다른 곳으로 옮기는 데 사용해요. 길이를 옮길 때는 컴퍼스로 길이를 재고 그 간격을 유지한 채 다른 곳에 원을 그려요.</p>
+<p>길이가 같은 선분의 작도를 익히세요. 직선을 긋고 한 점을 잡은 뒤, 컴퍼스로 주어진 선분의 길이를 재어 그 점을 중심으로 원을 그리면 같은 길이의 선분이 생겨요.</p>
+<p>크기가 같은 각의 작도도 중요해요. 주어진 각의 꼭짓점을 중심으로 원을 그려 두 변과 만나는 점을 찾고, 같은 반지름으로 새 반직선 위에 원을 그린 뒤, 두 교점 사이의 거리를 옮기면 같은 크기의 각이 만들어져요.</p>
+<p>각의 작도 순서를 묻는 문제가 자주 나와요. 어떤 점을 중심으로 어떤 길이의 원을 그렸는지 순서대로 정리해 두세요.</p>
+<p>평행선의 작도도 같은 각의 작도를 이용해요. 동위각이나 엇각의 크기가 같으면 두 직선이 평행하다는 성질을 이용해 평행선을 그릴 수 있어요.</p>
+<p>작도는 직접 해봐야 이해가 돼요. 컴퍼스와 자를 준비해 교과서의 작도 순서를 따라 그려보세요.</p>
+<p>작도 과정에서 같은 길이가 되는 선분을 표시해 보세요. 컴퍼스로 그린 원의 반지름은 모두 같으니까 어떤 선분들이 같은 길이인지 찾는 문제를 쉽게 풀 수 있어요.</p>
+<p>작도를 이해하면 삼각형이 하나로 정해지는 조건과 합동 조건의 원리가 자연스럽게 보여요.</p>
+<div class="callout"><strong>핵심 정리</strong>손으로 그려본 경험이 도형 개념을 단단하게 만들어줘요.</div>
+</div><div class="pbox"><h2>삼각형의 작도</h2>
+<p>삼각형을 하나로 작도할 수 있는 조건이 곧 합동 조건과 연결돼요. 어떤 조건이 주어지면 삼각형이 하나로 정해지는지 정리하세요.</p>
+<p>첫째, 세 변의 길이가 주어지면 삼각형이 하나로 정해져요. 한 변을 그린 뒤 양 끝에서 나머지 두 변의 길이를 반지름으로 원을 그리면 교점이 세 번째 꼭짓점이 돼요.</p>
+<p>단, 가장 긴 변의 길이가 나머지 두 변의 길이의 합보다 작아야 삼각형이 만들어져요. 이를 삼각형의 세 변의 길이 사이의 관계라고 하고 시험에 자주 나와요.</p>
+<p>둘째, 두 변의 길이와 그 끼인각의 크기가 주어지면 삼각형이 하나로 정해져요. 끼인각을 그리고 두 변 위에 길이를 옮긴 뒤 끝점을 연결하면 돼요.</p>
+<p>끼인각이 아닌 각이 주어지면 삼각형이 두 개 생기거나 생기지 않을 수 있어요. 그래서 반드시 끼인각이어야 해요.</p>
+<p>셋째, 한 변의 길이와 그 양 끝 각의 크기가 주어지면 삼각형이 하나로 정해져요. 변을 그리고 양 끝에서 각을 그리면 두 반직선이 만나는 점이 꼭짓점이 돼요.</p>
+<p>세 각의 크기만 주어지면 삼각형이 하나로 정해지지 않아요. 모양은 같지만 크기가 다른 삼각형을 무수히 많이 그릴 수 있기 때문이에요.</p>
+<p>두 각의 크기와 한 변의 길이가 주어진 경우에는 나머지 한 각을 구할 수 있어요. 삼각형의 세 각의 합이 180도니까 결국 한 변과 양 끝 각이 주어진 것과 같아요.</p>
+<p>삼각형이 하나로 정해지는 조건을 표로 정리하세요. 정해지는 경우와 정해지지 않는 경우를 함께 정리하면 시험에서 빠르게 판단할 수 있어요.</p>
+<p>삼각형의 작도를 이해하면 합동 조건이 왜 세 가지인지 자연스럽게 알게 돼요.</p>
+<p>조건과 결과를 연결하는 습관이 기하 문제의 정확도를 높여줘요.</p>
+</div><div class="mid-cta"><strong>우리 아이에게 맞는지 궁금하시다면</strong><br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요. <a class="cta-btn" href="../apply.html">무료체험 신청하기 →</a></div><div class="pbox"><h2>삼각형의 합동 조건</h2>
+<p>모양과 크기가 같아서 완전히 포개어지는 두 도형을 합동이라고 해요. 기호 ≡를 써서 나타내요.</p>
+<p>합동 기호를 쓸 때는 대응하는 꼭짓점의 순서를 맞춰야 해요. 삼각형 ABC ≡ 삼각형 DEF라고 쓰면 A와 D, B와 E, C와 F가 대응해요.</p>
+<p>합동인 두 도형은 대응하는 변의 길이가 같고, 대응하는 각의 크기가 같아요.</p>
+<p>삼각형의 합동 조건은 삼각형이 하나로 정해지는 조건과 같아요. 첫째, SSS 합동은 세 쌍의 대응하는 변의 길이가 각각 같을 때예요.</p>
+<p>둘째, SAS 합동은 두 쌍의 대응하는 변의 길이가 각각 같고 그 끼인각의 크기가 같을 때예요. 반드시 두 변 사이의 각이어야 해요.</p>
+<p>셋째, ASA 합동은 한 쌍의 대응하는 변의 길이가 같고 그 양 끝 각의 크기가 각각 같을 때예요.</p>
+<p>합동 조건을 판단할 때는 같은 것을 하나씩 표시하세요. 같은 변에는 같은 수의 짧은 선을, 같은 각에는 같은 표시를 하면 어떤 조건인지 한눈에 보여요.</p>
+<p>숨어 있는 조건을 찾으세요. 두 삼각형이 한 변을 함께 가지면 공통인 변이 같아요. 두 직선이 만나면 맞꼭지각이 같아요. 평행선이 있으면 엇각이나 동위각이 같아요.</p>
+<p>AAA는 합동 조건이 아니에요. 세 각이 같아도 크기가 다를 수 있기 때문이에요. SSA도 합동 조건이 아니에요. 끼인각이 아니기 때문이에요.</p>
+<p>합동 조건을 판단하는 문제를 많이 풀어보세요. 그림에 표시하며 판단하는 습관이 생기면 빠르고 정확하게 풀 수 있어요.</p>
+<div class="callout"><strong>핵심 정리</strong>표시하는 습관이 합동 문제의 가장 확실한 풀이법이에요.</div>
+</div><div class="pbox"><h2>합동 증명 쓰기</h2>
+<p>합동 증명은 서술형으로 자주 출제돼요. 정해진 순서대로 쓰면 누구나 깔끔하게 증명할 수 있어요.</p>
+<p>첫째, 어떤 두 삼각형이 합동인지 밝혀요. 삼각형 ABC와 삼각형 DEF에서처럼 시작해요.</p>
+<p>둘째, 같은 변이나 각을 하나씩 근거와 함께 써요. AB는 DE이다라고 쓰고 옆에 가정이라고 근거를 써요. 각 B는 각 E이다, 맞꼭지각처럼 각 항목마다 근거를 붙여요.</p>
+<p>근거의 종류를 정리하세요. 문제에서 주어진 조건은 가정, 두 삼각형이 함께 가지는 변은 공통, 두 직선이 만나서 생긴 각은 맞꼭지각, 평행선에서 생긴 각은 엇각이나 동위각이에요.</p>
+<p>셋째, 어떤 합동 조건인지 쓰고 결론을 써요. 따라서 삼각형 ABC ≡ 삼각형 DEF, SAS 합동처럼 마무리해요.</p>
+<p>합동임을 이용해 다른 사실을 증명하는 문제도 있어요. 두 삼각형이 합동이면 대응하는 변과 각이 같으니까, 합동을 먼저 보인 뒤 원하는 변이나 각이 같다고 결론을 내려요.</p>
+<p>증명을 쓰기 전에 그림에 같은 것을 모두 표시하세요. 표시를 보고 어떤 합동 조건을 쓸지 정한 뒤 쓰기 시작하면 증명이 흐트러지지 않아요.</p>
+<p>증명의 각 줄은 짧고 분명하게 쓰세요. 한 줄에 하나의 사실과 근거만 쓰면 채점하는 사람도 쉽게 이해할 수 있어요.</p>
+<p>교과서의 증명 예시를 따라 써보세요. 처음에는 그대로 따라 쓰고, 익숙해지면 그림만 보고 스스로 증명을 완성해 보세요.</p>
+<p>틀린 증명은 어떤 근거가 빠졌는지 확인하세요. 근거를 빠뜨리면 부분 점수만 받게 돼요.</p>
+<p>증명 쓰는 순서를 익히면 2학년 도형의 성질 증명도 자신 있게 할 수 있어요.</p>
+</div><div class="pbox"><h2>1:1 화상 수학 수업으로 합동 잡기</h2>
+<p>삼각형의 합동은 학생이 그림에 표시하고 근거를 찾는 과정을 함께 보는 것이 가장 효과적이에요. 1:1 수업에서는 선생님이 학생의 증명을 한 줄씩 보며 빠진 근거나 잘못 짝지은 대응을 바로 짚어줄 수 있어요.</p>
+<p>화상 수업에서는 화면에 작도 과정을 단계별로 보여주고, 두 삼각형을 돌리고 겹쳐 보며 대응 관계를 확인해요. 증명 서술은 학생이 직접 쓰고 함께 다듬어요.</p>
+<p>순천왕운중학교 학생이라면 학교 수학 진도와 시험 범위에 맞춰 수업을 구성할 수 있어요. 학교 기출 유형을 분석해 합동 증명 서술형까지 함께 대비해요.</p>
+<p>이동 시간이 없어서 방과 후 시간을 효율적으로 쓸 수 있고, 수업은 녹화되어 복습할 때 다시 볼 수 있어요.</p>
+<p>티치핏순천에서는 상담할 때 학년, 최근 수학 성적, 어려워하는 단원을 먼저 여쭤봐요. 각의 성질이나 평행선이 흔들린다면 그 부분부터 보완하는 계획을 세워 드려요.</p>
+<p>삼각형의 합동 이후에는 다각형의 성질, 원과 부채꼴, 입체도형까지 이어서 학습할 수 있어요.</p>
+<p>수업 후에는 배운 개념과 증명 예시, 과제를 정리해 드려서 다음 수업 전까지 스스로 복습할 수 있어요.</p>
+<p>합동과 증명이 고민이시라면 <mark class="free">30분 무료체험수업</mark>으로 먼저 수업 방식을 확인해 보세요. 최근 시험지나 문제집을 준비해 오시면 약점 분석부터 함께 해볼 수 있어요.</p>
+<p>상담과 체험은 모두 무료예요. 근거가 보이기 시작하면 증명이 재미있는 퍼즐처럼 느껴질 거예요.</p>
+<p>순천 지역에서 학원을 오가는 시간이 부담스러운 학생도 집에서 바로 수업을 받을 수 있어서, 그 시간을 문제 풀이와 복습에 쓸 수 있어요.</p>
+<p>논리적으로 증명하는 힘은 중학교 기하 전체의 든든한 바탕이 돼요.</p>
+<p><strong>Q. 도형 증명만 집중해서 수업할 수 있나요?</strong><br>
+네, 작도부터 합동 조건, 증명 쓰기까지 도형 단원을 집중적으로 수업할 수 있어요.</p>
+<p><strong>Q. SAS와 SSA를 헷갈려요.</strong><br>
+작도로 끼인각이 아니면 삼각형이 하나로 정해지지 않는 이유를 직접 확인하며 합동 조건의 원리를 이해하도록 도와 드려요.</p>
+<p><strong>Q. 증명 서술형에서 감점이 많아요.</strong><br>
+같은 것과 근거를 한 줄씩 쓰는 증명 순서를 익히고 직접 써보며 다듬는 연습으로 서술형 점수를 지켜 드려요.</p>
+</div>
+  </article>
+</section>
+<section>
+  <div class="cta-big">
+  <div class="cta-big-text">
+    <span class="cta-badge">무료</span>
+    <h2>30분 무료체험수업 먼저 받아보세요</h2>
+    <p>이름과 연락처만 남기시면 24시간 이내에 담당자가 연락드려요. 체험 후 마음에 들 때만 결정하세요.</p>
+  </div>
+  <div class="cta-big-btns">
+    <a class="cta-main" href="../apply.html">무료체험 신청하기 →</a>
+    <a class="cta-sub" href="tel:01031315305">전화 010-3131-5305</a>
+    <a class="cta-sub" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담</a>
+  </div>
+</div>
+</section>
+<p style="margin-top:14px;"><a href="../blog.html">← 블로그 목록으로</a></p>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="../index.html" style="margin-bottom:10px;"><span class="mark">TF</span>티치핏순천</a>
+      <div class="fnav">
+        <a href="../services.html">화상과외 소개</a><a href="../process.html">매칭 방식</a><a href="../teachers.html">선생님</a><a href="../regions.html">순천 학교별 과외</a><a href="../blog.html">블로그</a>
+      </div>
+      <p class="disclaimer">전화 010-3131-5305 · 운영시간 09:00–21:00 · 상담 및 매칭 신청은 무료이며, 실제 수업 진행 여부와 비용은 상담 후 안내해 드립니다. 사업자 정보는 확정 후 별도 고지 예정입니다.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js?v=6af2d58710"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
+<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:01031315305">📞 전화상담</a>
+  <a class="msc-apply" href="../apply.html">무료 상담 신청</a>
+</div>
+<div class="q-modal" id="qModal" aria-hidden="true">
+  <form class="quick" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[티치핏순천] 팝업 상담 신청">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://suncheon.slovrest.com/thanks.html">
+    <input type="hidden" name="신청경로" value="팝업">
+    <input type="hidden" name="과목" class="q-in-sub">
+    <input type="hidden" name="학년" class="q-in-grade">
+    <button type="button" class="q-close" aria-label="닫기">✕</button>
+    <div class="q-step q-s1 on">
+      <span class="q-badge">30분 무료체험수업</span>
+      <div class="q-title">어떤 과목이 고민이세요?<small>과목만 고르시면 순천 학교 진도에 맞는 선생님을 찾아 연락드려요</small></div>
+      <div class="q-tiles"><button type="button" data-s="수학과외" data-h="빠진 단원부터 찾아 채워요"><b>📐</b>수학과외<i>빠진 단원부터 찾아 채워요</i></button><button type="button" data-s="영어과외" data-h="단어·문법·서술형까지"><b>🔤</b>영어과외<i>단어·문법·서술형까지</i></button><button type="button" data-s="국어과외" data-h="교과서 지문·문법·독해"><b>📖</b>국어과외<i>교과서 지문·문법·독해</i></button><button type="button" data-s="초등 전과목" data-h="기초 학습 습관부터"><b>✏️</b>초등 전과목<i>기초 학습 습관부터</i></button><button type="button" data-s="과학·사회" data-h="개념 정리와 서술형 대비"><b>🔬</b>과학·사회<i>개념 정리와 서술형 대비</i></button><button type="button" data-s="자기주도학습" data-h="공부 계획과 습관 만들기"><b>🧭</b>자기주도학습<i>공부 계획과 습관 만들기</i></button></div>
+      <div class="q-alt"><a href="tel:01031315305">📞 010-3131-5305</a><a href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카톡 상담</a></div>
+    </div>
+    <div class="q-step q-s2">
+      <button type="button" class="q-back">← 다시 고르기</button>
+      <div class="q-chosen"></div><div class="q-hint"></div>
+      <span class="q-lbl">학년</span>
+      <div class="q-chips"><button type="button">초1~3</button><button type="button">초4~6</button><button type="button">중1</button><button type="button">중2</button><button type="button">중3</button><button type="button">고1</button><button type="button">고2</button><button type="button">고3</button></div>
+      <span class="q-lbl">연락처</span>
+      <div class="q-row2"><input type="text" name="학생이름" placeholder="학생 이름 *" required><input type="tel" name="연락처" placeholder="연락처 *" required></div>
+      <input type="text" name="학교" placeholder="재학 중인 학교 (선택)">
+      <button type="submit" class="q-submit">무료체험 신청하기</button>
+      <p class="q-note">상담·체험 모두 무료 · 24시간 이내 연락드려요</p>
+    </div>
+  </form>
+</div>
+<button type="button" class="q-fab" id="qFab">⚡ 무료체험 신청</button>
+
+</body>
+</html>

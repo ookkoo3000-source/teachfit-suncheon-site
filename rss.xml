@@ -6,9 +6,44 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 03 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천중앙초등학교 수학과외, 원주와 원의 넓이</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-jungang-es-suhak-won-neolbi.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-jungang-es-suhak-won-neolbi.html</guid>
+    <description>원주율의 뜻을 모르고 원주와 원의 넓이 공식을 헷갈려 반지름과 지름을 잘못 넣는 순천중앙초등학교 학생을 위해 원리와 공식을 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천삼산초등학교 국어과외, 낱말의 짜임 알아보기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-samsan-es-gugeo-nanmal-jjaim.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-samsan-es-gugeo-nanmal-jjaim.html</guid>
+    <description>단일어와 복합어를 구분하지 못하고 합성어와 파생어를 헷갈리는 순천삼산초등학교 학생을 위해 낱말의 짜임을 쉽게 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천왕운중학교 수학과외, 삼각형의 합동 조건과 작도</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-wangun-ms-suhak-samgakhyeong-hapdong.html</guid>
+    <description>삼각형의 합동 조건 SSS, SAS, ASA를 외웠는데도 어떤 조건인지 판단하지 못하고 합동 증명 서술형에서 막히는 순천왕운중학교 학생을 위해 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천팔마중학교 영어과외, 동명사 쓰임과 to부정사 구분</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-palma-ms-yeongeo-dongmyeongsa.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-palma-ms-yeongeo-dongmyeongsa.html</guid>
+    <description>동명사와 to부정사 중 무엇을 목적어로 써야 할지 헷갈리고 동명사를 현재진행형과 구분하지 못하는 순천팔마중학교 학생을 위해 동명사를 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천고등학교 국어과외, 화법과 작문 문제 푸는 법</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-hs-gugeo-hwabeop-jakmun.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-hs-gugeo-hwabeop-jakmun.html</guid>
+    <description>화법과 작문은 쉬워 보이는데 선택지 하나 차이로 자주 틀리고 시간을 많이 쓰는 순천고등학교 학생을 위해 유형별 풀이 순서를 정리했어요.</description>
+    <pubDate>Sun, 04 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천연향초등학교 영어과외, 파닉스로 영어 읽기 시작</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-yeonhyang-es-yeongeo-phonics.html</link>
