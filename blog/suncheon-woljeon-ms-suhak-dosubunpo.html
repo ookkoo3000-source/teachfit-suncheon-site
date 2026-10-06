@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>순천월전중학교 수학과외, 도수분포표와 히스토그램 읽기 | 티치핏순천</title>
+<meta name="description" content="계급의 크기와 계급값을 헷갈리거나 히스토그램 넓이와 상대도수 문제에서 막히는 순천월전중학교 학생을 위해 자료의 정리와 해석 단원을 정리했어요.">
+<link rel="canonical" href="https://suncheon.slovrest.com/blog/suncheon-woljeon-ms-suhak-dosubunpo.html">
+<link rel="alternate" type="application/rss+xml" title="티치핏순천 블로그" href="https://suncheon.slovrest.com/rss.xml">
+<link rel="icon" href="https://suncheon.slovrest.com/favicon.ico?v=9db6371a" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="https://suncheon.slovrest.com/assets/icon-192.png?v=9db6371a">
+<link rel="apple-touch-icon" href="https://suncheon.slovrest.com/apple-touch-icon.png?v=9db6371a">
+<meta name="naver-site-verification" content="9b1563587615d3dfc8718aed4be3aafe87c82c42">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css?v=61de403470">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="티치핏순천">
+<meta property="og:title" content="순천월전중학교 수학과외, 도수분포표와 히스토그램 읽기 | 티치핏순천">
+<meta property="og:description" content="계급의 크기와 계급값을 헷갈리거나 히스토그램 넓이와 상대도수 문제에서 막히는 순천월전중학교 학생을 위해 자료의 정리와 해석 단원을 정리했어요.">
+<meta property="og:url" content="https://suncheon.slovrest.com/blog/suncheon-woljeon-ms-suhak-dosubunpo.html">
+<meta property="og:image" content="https://suncheon.slovrest.com/blog/img/suncheon-woljeon-ms-suhak-dosubunpo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://suncheon.slovrest.com/blog/img/suncheon-woljeon-ms-suhak-dosubunpo.jpg">
+</head>
+<body>
+<div class="band band-suncheon" aria-hidden="true">
+<svg class="band-bg" viewBox="0 0 800 56" preserveAspectRatio="none">
+  <defs><linearGradient id="scBandBg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" style="stop-color:var(--band-top)"/><stop offset="100%" style="stop-color:var(--band-bottom)"/></linearGradient></defs>
+  <rect x="0" y="0" width="800" height="56" fill="url(#scBandBg)"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-soft)" stroke-width="5" opacity=".75"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-hi)" stroke-width="1.2" opacity=".35"/>
+  <g fill="var(--band-ink)" opacity=".35">
+    <ellipse cx="90" cy="52" rx="40" ry="5"/><ellipse cx="260" cy="54" rx="50" ry="5"/><ellipse cx="450" cy="52" rx="36" ry="4"/><ellipse cx="620" cy="54" rx="46" ry="5"/>
+  </g>
+</svg>
+<svg class="band-motif" viewBox="0 0 150 56" preserveAspectRatio="xMaxYMax meet">
+  <circle cx="112" cy="20" r="8" fill="var(--band-sun)"/>
+  <g fill="none" stroke="var(--band-hi)" stroke-width="1.6" stroke-linecap="round"><path d="M40 16 q5 -4 10 0 q5 -4 10 0"/><path d="M64 8 q4 -3 8 0 q4 -3 8 0"/></g>
+  <g stroke="var(--band-deep)" stroke-width="1.6" stroke-linecap="round">
+    <path d="M96 56 Q 98 40 94 28"/><path d="M106 56 Q 108 42 112 32"/><path d="M118 56 Q 118 44 124 36"/><path d="M130 56 Q 132 46 128 38"/><path d="M142 56 Q 142 46 146 40"/>
+  </g>
+  <g fill="var(--band-ink)">
+    <ellipse cx="94" cy="26" rx="3" ry="7" transform="rotate(-14 94 26)"/><ellipse cx="112" cy="30" rx="3" ry="7" transform="rotate(18 112 30)"/>
+    <ellipse cx="124" cy="34" rx="2.6" ry="6" transform="rotate(24 124 34)"/><ellipse cx="128" cy="36" rx="2.6" ry="6" transform="rotate(-18 128 36)"/><ellipse cx="146" cy="38" rx="2.4" ry="5.5" transform="rotate(22 146 38)"/>
+  </g>
+</svg>
+</div>
+<div class="topbar">
+  <div class="wrap">
+    <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
+    <a class="phone" href="tel:01031315305">📞 010-3131-5305 (09:00–21:00)</a>
+  </div>
+</div>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="../index.html"><span class="mark">TF</span>티치핏순천</a>
+    <div class="navwrap">
+      <nav class="main">
+        <a href="../index.html">홈</a>
+        <a href="../teachers.html">선생님</a>
+        <a href="../regions.html">순천 학교별 과외</a>
+        <a href="../blog.html" aria-current="page">블로그</a>
+      </nav>
+      <a class="cta-btn" href="../apply.html">무료 상담 신청</a>
+      <button class="menu-btn" aria-label="메뉴">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav-wrap">
+    <nav class="mobile-nav">
+      <a href="../index.html">홈</a>
+      <a href="../teachers.html">선생님</a>
+      <a href="../regions.html">순천 학교별 과외</a>
+      <a href="../blog.html" aria-current="page">블로그</a>
+      <a href="../apply.html">무료 상담 신청</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<nav class="breadcrumb"><a href="../blog.html">블로그</a> / 중등 수학</nav>
+<section class="page-hero post-hero">
+  <span class="eyebrow">2026-10-06 · 중등 수학</span>
+  <h1>순천월전중학교 수학과외, 도수분포표와 히스토그램 읽기</h1>
+  <img class="post-cover" src="img/suncheon-woljeon-ms-suhak-dosubunpo.webp" width="720" height="720" alt="순천월전중학교 수학과외 1:1 화상과외 안내" loading="eager">
+  <div class="hero-cta"><a class="cta-main" href="../apply.html">30분 무료체험 신청하기 →</a><span>상담·체험 모두 무료</span></div>
+</section>
+<section>
+  <article class="prose blog-prose">
+    <div class="intro-banner">
+  <span class="ib-tag">무료 상담 · 무료 체험</span>
+  <p>학생 학습 상태 진단과 학교 시험 분석을 함께 안내드려요.<br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요.</p>
+  <div class="ib-btns">
+    <a class="ib-kakao" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담 <i>↗</i></a>
+    <a class="ib-apply" href="../apply.html">무료체험 신청 <i>✨</i></a>
+  </div>
+</div><div class="summary-box"><strong>이 글 한눈에 보기</strong><ul><li>순천월전중학교 학생이 통계 단원을 어려워하는 이유</li><li>줄기와 잎 그림</li><li>도수분포표</li><li>히스토그램과 도수분포다각형</li><li>상대도수와 그래프</li><li><b><mark class="free">30분 무료체험수업</mark></b>으로 먼저 확인해보실 수 있어요.</li></ul></div>
+<p>순천월전중학교 1학년 학생들이 2학기 수학에서 만나는 통계 단원이 자료의 정리와 해석이에요. 도수분포표와 히스토그램은 계산이 어렵지 않아 보여서 가볍게 생각하다가, 계급의 크기와 계급의 개수를 헷갈리거나, 이상과 미만의 경계에 있는 값을 어느 계급에 넣을지 몰라 틀리는 경우가 많아요.</p><p>히스토그램의 직사각형 넓이의 합과 도수분포다각형의 넓이가 같다는 성질이나, 상대도수를 이용해 전체 도수를 구하는 문제에서도 자주 막혀요. 줄기와 잎 그림, 도수분포표, 히스토그램, 도수분포다각형, 상대도수는 서로 연결된 개념이라 하나라도 흔들리면 단원 전체가 어렵게 느껴져요.</p><p>이 단원은 중학교 1학년 2학기 내신의 단골 범위이고, 2학년 확률, 3학년 대푯값과 산포도, 고등학교 통계로 이어지는 중요한 기초예요. 이 글에서는 순천월전중학교 학생이 통계 단원을 어려워하는 이유, 줄기와 잎 그림, 도수분포표, 히스토그램과 도수분포다각형, 상대도수, 그리고 1:1 화상 수학 수업 활용법까지 차례대로 정리해 드릴게요.</p>
+<div class="pbox"><h2>순천월전중학교 학생이 통계 단원을 어려워하는 이유</h2>
+<p>통계 단원을 어려워하는 첫 번째 이유는 용어가 많고 비슷하다는 점이에요. 변량, 계급, 계급의 크기, 도수, 상대도수, 누적도수처럼 비슷한 용어가 한꺼번에 나와서 뜻을 헷갈리기 쉬워요.</p>
+<p>두 번째 이유는 계급의 경계값을 처리하지 못하는 거예요. 60점 이상 70점 미만 계급에 70점은 들어가지 않는다는 규칙을 놓치면 도수를 잘못 세게 돼요.</p>
+<p>세 번째 이유는 그래프를 읽을 때 기준을 확인하지 않는 거예요. 히스토그램의 가로축이 계급인지, 세로축이 도수인지 확인하지 않고 막대 높이만 보면 질문에 맞는 값을 찾지 못해요.</p>
+<p>네 번째 이유는 넓이 관련 성질을 이해하지 못한 거예요. 히스토그램에서 직사각형의 넓이는 계급의 크기와 도수의 곱이라는 점, 넓이의 합이 도수분포다각형의 넓이와 같다는 점을 원리 없이 외우면 응용 문제에서 막혀요.</p>
+<p>다섯 번째 이유는 상대도수의 의미가 흐릿한 거예요. 상대도수는 각 계급의 도수를 전체 도수로 나눈 값인데, 이를 이용해 거꾸로 전체 도수나 계급의 도수를 구하는 문제를 어려워해요.</p>
+<p>여섯 번째 이유는 두 집단을 비교하는 문제가 낯선 거예요. 전체 도수가 다른 두 집단은 도수가 아니라 상대도수로 비교해야 하는데, 이 판단을 하지 못해 잘못된 결론을 내리는 경우가 있어요.</p>
+<p>일곱 번째 이유는 찢어진 도수분포표나 일부가 가려진 히스토그램 문제에 약한 거예요. 주어진 조건을 이용해 빠진 값을 찾아야 하는데, 어떤 정보를 먼저 써야 할지 몰라 막혀요.</p>
+<p>여덟 번째 이유는 해석 문장을 쓰는 연습이 부족한 거예요. 서술형에서 그래프를 보고 알 수 있는 사실을 쓰라고 하면 근거와 함께 정확한 문장으로 쓰지 못해 감점돼요.</p>
+<p>통계 단원은 용어의 뜻을 정확히 정리하고 표와 그래프의 관계를 이해하면 계산 부담이 적은 확실한 득점 단원이 될 수 있어요. 줄기와 잎 그림부터 차근차근 정리해 볼게요.</p>
+</div><div class="pbox"><h2>줄기와 잎 그림</h2>
+<p>통계에서 자료를 이루는 각각의 수를 변량이라고 해요. 학생들의 수학 점수를 조사했다면 각 학생의 점수 하나하나가 변량이에요.</p>
+<p>줄기와 잎 그림은 변량을 줄기와 잎으로 나누어 나타낸 그림이에요. 두 자리 수라면 보통 십의 자리 숫자를 줄기, 일의 자리 숫자를 잎으로 해요. 73점이라면 줄기 7, 잎 3이에요.</p>
+<p>줄기와 잎 그림을 그릴 때는 줄기를 세로로 작은 수부터 쓰고, 잎은 각 줄기 옆에 작은 수부터 차례로 써요. 같은 수가 여러 번 나오면 잎도 그 횟수만큼 모두 써야 해요.</p>
+<p>줄기와 잎 그림의 장점은 원래 자료의 값을 그대로 알 수 있다는 거예요. 자료의 분포 모양도 한눈에 보이고, 가장 큰 값과 가장 작은 값도 쉽게 찾을 수 있어요.</p>
+<p>줄기와 잎 그림 문제는 전체 변량의 개수, 특정 줄기의 잎의 개수, 몇 점 이상인 학생 수, 상위 몇 번째 학생의 점수 등을 묻는 형태로 자주 나와요.</p>
+<p>잎의 개수가 곧 변량의 개수라는 점을 기억해요. 줄기의 개수를 전체 학생 수로 착각하는 실수가 자주 나오니, 잎을 하나하나 세는 습관을 들여요.</p>
+<p>상위 몇 번째 값을 찾을 때는 가장 큰 줄기의 가장 큰 잎부터 거꾸로 세어요. 하위 몇 번째라면 가장 작은 줄기의 가장 작은 잎부터 세어요.</p>
+<p>두 집단을 비교하는 양쪽 줄기와 잎 그림도 나와요. 가운데 줄기를 두고 왼쪽과 오른쪽에 각 집단의 잎을 쓰는데, 왼쪽 잎은 줄기에 가까운 쪽부터 작은 수를 써요.</p>
+<div class="callout"><strong>핵심 정리</strong>줄기와 잎 그림이 익숙해지면 자료를 계급으로 묶어 정리하는 도수분포표로 넘어가요.</div>
+</div><div class="pbox"><h2>도수분포표</h2>
+<p>도수분포표는 변량을 일정한 간격으로 나눈 계급에 따라 정리한 표예요. 변량이 많을 때 자료를 한눈에 정리하기 좋아요.</p>
+<p>계급은 변량을 나눈 구간이고, 계급의 크기는 구간의 너비, 즉 계급의 양 끝값의 차예요. 60점 이상 70점 미만이라면 계급의 크기는 10이에요. 계급의 개수와 계급의 크기를 헷갈리지 않도록 해요.</p>
+<p>도수는 각 계급에 속하는 변량의 개수예요. 도수의 총합은 전체 변량의 개수와 같아요. 도수를 셀 때는 변량을 하나씩 표시하며 세면 빠뜨리거나 두 번 세는 실수를 막을 수 있어요.</p>
+<p>계급의 경계값은 이상과 미만으로 처리해요. 70점은 60점 이상 70점 미만 계급이 아니라 70점 이상 80점 미만 계급에 들어가요. 경계값을 정확히 처리하는 것이 도수분포표의 핵심이에요.</p>
+<p>계급값은 각 계급의 가운데 값이에요. 60점 이상 70점 미만 계급의 계급값은 (60+70)÷2=65점이에요. 교육과정에 따라 다루는 범위가 다를 수 있으니 학교 교과서를 기준으로 정리해요.</p>
+<p>도수분포표 문제는 특정 계급의 도수, 도수가 가장 큰 계급, 몇 점 이상인 학생 수, 상위 몇 %에 속하는 계급 등을 묻는 형태로 자주 나와요.</p>
+<p>퍼센트를 묻는 문제는 해당 도수를 전체 도수로 나누고 100을 곱해요. 전체 40명 중 80점 이상이 10명이라면 10÷40×100=25%예요.</p>
+<p>일부 도수가 빠진 도수분포표 문제는 도수의 총합을 이용해 빠진 값을 구해요. 두 개 이상의 값이 빠져 있다면 문제에 주어진 다른 조건을 찾아 식을 하나 더 세워요.</p>
+<p>도수분포표를 정확히 다룰 수 있게 되면 이를 그래프로 나타내는 히스토그램과 도수분포다각형으로 넘어가요.</p>
+</div><div class="mid-cta"><strong>우리 아이에게 맞는지 궁금하시다면</strong><br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요. <a class="cta-btn" href="../apply.html">무료체험 신청하기 →</a></div><div class="pbox"><h2>히스토그램과 도수분포다각형</h2>
+<p>히스토그램은 도수분포표의 각 계급을 가로로, 도수를 세로로 하는 직사각형을 붙여 그린 그래프예요. 직사각형 사이에 빈틈이 없다는 점이 막대그래프와 다른 점이에요.</p>
+<p>히스토그램에서 각 직사각형의 넓이는 계급의 크기와 도수의 곱이에요. 모든 직사각형의 계급의 크기가 같으므로 넓이는 도수에 정비례해요.</p>
+<p>직사각형 넓이의 합은 계급의 크기와 도수의 총합의 곱이에요. 계급의 크기가 10이고 전체 도수가 30이라면 넓이의 합은 300이에요. 이 계산은 시험에 자주 나와요.</p>
+<p>도수분포다각형은 히스토그램의 각 직사각형 윗변의 중앙에 점을 찍어 선분으로 연결한 그래프예요. 양 끝에는 도수가 0인 계급을 하나씩 추가해 가로축과 만나게 그려요.</p>
+<p>도수분포다각형과 가로축으로 둘러싸인 부분의 넓이는 히스토그램의 직사각형 넓이의 합과 같아요. 양 끝에서 생기는 삼각형과 잘려 나가는 삼각형이 합동이기 때문이에요.</p>
+<p>이 성질의 이유를 그림으로 확인해 두면 외우지 않아도 기억할 수 있어요. 직사각형 윗변 중점을 잇는 선분이 만드는 작은 삼각형 두 개가 서로 넓이가 같다는 것을 판서로 직접 그려 확인해요.</p>
+<p>히스토그램과 도수분포다각형 문제는 그래프에서 도수를 읽고, 전체 도수, 특정 범위의 도수, 넓이를 구하는 형태로 나와요. 가로축의 눈금이 계급의 경계값이라는 점을 꼭 확인해요.</p>
+<p>일부가 찢어지거나 가려진 그래프 문제는 전체 도수나 특정 조건을 이용해 보이지 않는 계급의 도수를 구해요. 조건을 식으로 정리하는 연습이 필요해요.</p>
+<div class="callout"><strong>핵심 정리</strong>두 집단의 도수분포다각형을 함께 그려 비교하는 문제도 나와요. 그래프가 오른쪽으로 치우친 집단이 상대적으로 값이 큰 변량이 많다는 식으로 해석하는 연습을 해요.</div>
+</div><div class="pbox"><h2>상대도수와 그래프</h2>
+<p>상대도수는 각 계급의 도수를 도수의 총합으로 나눈 값이에요. 상대도수는 0 이상 1 이하이고, 상대도수의 총합은 항상 1이에요.</p>
+<p>상대도수의 공식은 세 가지 형태로 쓸 수 있어요. 상대도수는 도수를 도수의 총합으로 나눈 값, 도수는 도수의 총합에 상대도수를 곱한 값, 도수의 총합은 도수를 상대도수로 나눈 값이에요.</p>
+<p>이 세 가지 형태를 자유롭게 쓸 수 있어야 해요. 어떤 계급의 도수가 6이고 상대도수가 0.15라면 전체 도수는 6÷0.15=40이에요. 거꾸로 구하는 문제가 내신에 자주 나와요.</p>
+<p>상대도수에 100을 곱하면 그 계급이 전체에서 차지하는 백분율이 돼요. 상대도수 0.25는 전체의 25%라는 뜻이에요.</p>
+<p>상대도수는 전체 도수가 다른 두 집단을 비교할 때 특히 유용해요. A반 30명 중 6명과 B반 40명 중 8명은 도수로는 B반이 많지만 상대도수는 둘 다 0.2로 같아요.</p>
+<p>상대도수의 분포를 그래프로 나타낼 수도 있어요. 히스토그램이나 도수분포다각형과 같은 방법으로 그리되, 세로축을 상대도수로 해요. 두 집단의 분포를 한 그래프에 함께 그려 비교하기 좋아요.</p>
+<p>상대도수 그래프와 가로축으로 둘러싸인 부분의 넓이는 계급의 크기와 상대도수의 총합 1의 곱이므로 계급의 크기와 같아요.</p>
+<p>상대도수 문제는 표가 일부 찢어진 형태로 자주 나와요. 상대도수의 총합이 1이라는 성질과 도수, 상대도수, 전체 도수의 관계식을 함께 쓰면 빠진 값을 구할 수 있어요.</p>
+<p>상대도수까지 정리하면 자료의 정리와 해석 단원의 모든 유형에 대비할 수 있고, 3학년 대푯값과 산포도도 훨씬 수월해져요.</p>
+</div><div class="pbox"><h2>1:1 화상 수학 수업으로 통계 단원 완성하기</h2>
+<p>티치핏 1:1 화상 수학 수업에서는 순천월전중학교 학생의 교과서와 내신 기출 유형을 먼저 확인하고, 용어 구분이 약한지 그래프 해석이 약한지 약점부터 정확히 진단해요.</p>
+<p>화면 공유 판서로 히스토그램과 도수분포다각형을 함께 그리며 넓이가 같아지는 이유를 직접 보여 주기 때문에, 성질을 외우지 않고 이해할 수 있어요.</p>
+<p>학생이 문제를 푸는 과정을 화면으로 실시간 확인하면서 경계값 처리나 상대도수 역산 실수를 바로 짚어 주고, 같은 유형을 반복해서 정확도를 높여요.</p>
+<p>내신 서술형 대비로 그래프 해석 문장을 근거와 함께 쓰는 연습을 하고, 시험 전에는 학교 기출 유형에 맞춘 실전 문제로 마무리 점검을 해요.</p>
+<p>수업 후에는 용어 정리표와 오답 노트, 과제를 정리해 드려서 혼자서도 복습을 이어 갈 수 있어요.</p>
+<p>통계 단원 앞의 도형 단원이나 일차방정식이 흔들리는 학생은 필요한 부분을 함께 보충해 드려요.</p>
+<p>궁금한 점은 수업 중 언제든 편하게 질문할 수 있어서, 헷갈리는 부분을 그냥 넘기지 않고 그 자리에서 해결할 수 있어요.</p>
+<p>중학교 수학 내신이 고민이시라면 <mark class="free">30분 무료체험수업</mark>으로 먼저 수업 방식을 확인해 보세요. 시험지나 교재를 준비해 오시면 약점 분석부터 함께 해 볼 수 있어요.</p>
+<p>상담과 체험은 모두 무료예요. 순천 지역에서 학원을 오가는 시간이 부담스러운 학생도 집에서 편안하게 수업을 받을 수 있어요.</p>
+<p>학부모님께는 수업마다 학생이 잘한 부분과 더 보완할 부분을 짧게 공유해 드려서 가정에서도 진도를 함께 확인하실 수 있어요.</p>
+<p>자료를 정리하고 해석하는 힘은 수학을 넘어 과학과 사회 과목에서도 계속 쓰이는 중요한 능력이에요.</p>
+<p><strong>Q. 계급의 크기와 계급의 개수를 자꾸 헷갈려요.</strong><br>
+용어마다 예시와 그림을 함께 정리한 표를 만들고 문제에서 용어를 확인하는 습관을 들여서 비슷한 용어를 정확히 구분하도록 도와 드려요.</p>
+<p><strong>Q. 상대도수로 전체 도수 구하는 문제를 못 풀어요.</strong><br>
+도수, 상대도수, 전체 도수의 관계를 세 가지 식으로 정리하고 거꾸로 구하는 문제를 반복 연습해서 응용 문제를 해결하도록 도와 드려요.</p>
+<p><strong>Q. 화상 수업으로 그래프 문제 설명이 되나요?</strong><br>
+네, 화면 판서로 히스토그램과 도수분포다각형을 직접 그리며 설명하고 학생이 그린 그래프도 바로 점검해서 대면 수업처럼 지도할 수 있어요.</p>
+</div>
+  </article>
+</section>
+<section>
+  <div class="cta-big">
+  <div class="cta-big-text">
+    <span class="cta-badge">무료</span>
+    <h2>30분 무료체험수업 먼저 받아보세요</h2>
+    <p>이름과 연락처만 남기시면 24시간 이내에 담당자가 연락드려요. 체험 후 마음에 들 때만 결정하세요.</p>
+  </div>
+  <div class="cta-big-btns">
+    <a class="cta-main" href="../apply.html">무료체험 신청하기 →</a>
+    <a class="cta-sub" href="tel:01031315305">전화 010-3131-5305</a>
+    <a class="cta-sub" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담</a>
+  </div>
+</div>
+</section>
+<p style="margin-top:14px;"><a href="../blog.html">← 블로그 목록으로</a></p>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="../index.html" style="margin-bottom:10px;"><span class="mark">TF</span>티치핏순천</a>
+      <div class="fnav">
+        <a href="../services.html">화상과외 소개</a><a href="../process.html">매칭 방식</a><a href="../teachers.html">선생님</a><a href="../regions.html">순천 학교별 과외</a><a href="../blog.html">블로그</a>
+      </div>
+      <p class="disclaimer">전화 010-3131-5305 · 운영시간 09:00–21:00 · 상담 및 매칭 신청은 무료이며, 실제 수업 진행 여부와 비용은 상담 후 안내해 드립니다. 사업자 정보는 확정 후 별도 고지 예정입니다.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js?v=6af2d58710"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
+<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:01031315305">📞 전화상담</a>
+  <a class="msc-apply" href="../apply.html">무료 상담 신청</a>
+</div>
+<div class="q-modal" id="qModal" aria-hidden="true">
+  <form class="quick" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[티치핏순천] 팝업 상담 신청">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://suncheon.slovrest.com/thanks.html">
+    <input type="hidden" name="신청경로" value="팝업">
+    <input type="hidden" name="과목" class="q-in-sub">
+    <input type="hidden" name="학년" class="q-in-grade">
+    <button type="button" class="q-close" aria-label="닫기">✕</button>
+    <div class="q-step q-s1 on">
+      <span class="q-badge">30분 무료체험수업</span>
+      <div class="q-title">어떤 과목이 고민이세요?<small>과목만 고르시면 순천 학교 진도에 맞는 선생님을 찾아 연락드려요</small></div>
+      <div class="q-tiles"><button type="button" data-s="수학과외" data-h="빠진 단원부터 찾아 채워요"><b>📐</b>수학과외<i>빠진 단원부터 찾아 채워요</i></button><button type="button" data-s="영어과외" data-h="단어·문법·서술형까지"><b>🔤</b>영어과외<i>단어·문법·서술형까지</i></button><button type="button" data-s="국어과외" data-h="교과서 지문·문법·독해"><b>📖</b>국어과외<i>교과서 지문·문법·독해</i></button><button type="button" data-s="초등 전과목" data-h="기초 학습 습관부터"><b>✏️</b>초등 전과목<i>기초 학습 습관부터</i></button><button type="button" data-s="과학·사회" data-h="개념 정리와 서술형 대비"><b>🔬</b>과학·사회<i>개념 정리와 서술형 대비</i></button><button type="button" data-s="자기주도학습" data-h="공부 계획과 습관 만들기"><b>🧭</b>자기주도학습<i>공부 계획과 습관 만들기</i></button></div>
+      <div class="q-alt"><a href="tel:01031315305">📞 010-3131-5305</a><a href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카톡 상담</a></div>
+    </div>
+    <div class="q-step q-s2">
+      <button type="button" class="q-back">← 다시 고르기</button>
+      <div class="q-chosen"></div><div class="q-hint"></div>
+      <span class="q-lbl">학년</span>
+      <div class="q-chips"><button type="button">초1~3</button><button type="button">초4~6</button><button type="button">중1</button><button type="button">중2</button><button type="button">중3</button><button type="button">고1</button><button type="button">고2</button><button type="button">고3</button></div>
+      <span class="q-lbl">연락처</span>
+      <div class="q-row2"><input type="text" name="학생이름" placeholder="학생 이름 *" required><input type="tel" name="연락처" placeholder="연락처 *" required></div>
+      <input type="text" name="학교" placeholder="재학 중인 학교 (선택)">
+      <button type="submit" class="q-submit">무료체험 신청하기</button>
+      <p class="q-note">상담·체험 모두 무료 · 24시간 이내 연락드려요</p>
+    </div>
+  </form>
+</div>
+<button type="button" class="q-fab" id="qFab">⚡ 무료체험 신청</button>
+
+</body>
+</html>
