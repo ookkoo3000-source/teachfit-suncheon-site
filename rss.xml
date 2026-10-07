@@ -6,9 +6,44 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 06 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천고등학교 수학과외, 지수의 확장과 지수법칙</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-hs-suhak-jisu.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-hs-suhak-jisu.html</guid>
+    <description>거듭제곱근과 유리수 지수를 오가는 변환에서 막히고 지수법칙을 덧셈과 곱셈에 잘못 적용하는 순천고등학교 학생을 위해 지수 단원을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>신대초등학교 수학과외, 규칙 찾기와 대응 관계 식</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-sindae-es-suhak-gyuchik.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-sindae-es-suhak-gyuchik.html</guid>
+    <description>수 배열이나 도형 배열에서 규칙을 말로는 설명하지만 식으로 나타내지 못하고 두 양의 대응 관계를 헷갈리는 신대초등학교 학생을 위해 규칙 찾기를 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천향림초등학교 영어과외, 교통수단과 등굣길 말하기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-hyangnim-es-yeongeo-gyotong.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-hyangnim-es-yeongeo-gyotong.html</guid>
+    <description>How do you go to school?에 by a bus처럼 관사를 넣거나 on foot과 걸린 시간을 말하지 못하는 순천향림초등학교 학생을 위해 교통수단 표현을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천이수중학교 영어과외, to부정사 세 가지 용법</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-isu-ms-yeongeo-to-budeongsa.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-isu-ms-yeongeo-to-budeongsa.html</guid>
+    <description>to부정사를 보면 무조건 ~하기 위해로 해석하거나 명사적, 형용사적, 부사적 용법을 구분하지 못하는 순천이수중학교 학생을 위해 to부정사를 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>한국바둑중학교 수학과외, 좌표평면과 그래프 해석</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-baduk-ms-suhak-jwapyo.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-baduk-ms-suhak-jwapyo.html</guid>
+    <description>순서쌍의 x와 y를 바꾸어 찍거나 사분면 부호를 헷갈리고 상황을 나타낸 그래프를 해석하지 못하는 한국바둑중학교 학생을 위해 좌표평면과 그래프를 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>팔마초등학교 국어과외, 주장과 근거로 논설문 쓰기</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-palma-es-gugeo-jujang-geungeo.html</link>

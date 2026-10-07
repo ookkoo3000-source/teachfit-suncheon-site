@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>순천고등학교 수학과외, 지수의 확장과 지수법칙 | 티치핏순천</title>
+<meta name="description" content="거듭제곱근과 유리수 지수를 오가는 변환에서 막히고 지수법칙을 덧셈과 곱셈에 잘못 적용하는 순천고등학교 학생을 위해 지수 단원을 정리했어요.">
+<link rel="canonical" href="https://suncheon.slovrest.com/blog/suncheon-hs-suhak-jisu.html">
+<link rel="alternate" type="application/rss+xml" title="티치핏순천 블로그" href="https://suncheon.slovrest.com/rss.xml">
+<link rel="icon" href="https://suncheon.slovrest.com/favicon.ico?v=9db6371a" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="https://suncheon.slovrest.com/assets/icon-192.png?v=9db6371a">
+<link rel="apple-touch-icon" href="https://suncheon.slovrest.com/apple-touch-icon.png?v=9db6371a">
+<meta name="naver-site-verification" content="9b1563587615d3dfc8718aed4be3aafe87c82c42">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css?v=61de403470">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="티치핏순천">
+<meta property="og:title" content="순천고등학교 수학과외, 지수의 확장과 지수법칙 | 티치핏순천">
+<meta property="og:description" content="거듭제곱근과 유리수 지수를 오가는 변환에서 막히고 지수법칙을 덧셈과 곱셈에 잘못 적용하는 순천고등학교 학생을 위해 지수 단원을 정리했어요.">
+<meta property="og:url" content="https://suncheon.slovrest.com/blog/suncheon-hs-suhak-jisu.html">
+<meta property="og:image" content="https://suncheon.slovrest.com/blog/img/suncheon-hs-suhak-jisu.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://suncheon.slovrest.com/blog/img/suncheon-hs-suhak-jisu.jpg">
+</head>
+<body>
+<div class="band band-suncheon" aria-hidden="true">
+<svg class="band-bg" viewBox="0 0 800 56" preserveAspectRatio="none">
+  <defs><linearGradient id="scBandBg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" style="stop-color:var(--band-top)"/><stop offset="100%" style="stop-color:var(--band-bottom)"/></linearGradient></defs>
+  <rect x="0" y="0" width="800" height="56" fill="url(#scBandBg)"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-soft)" stroke-width="5" opacity=".75"/>
+  <path d="M0 44 C 60 30 110 52 170 40 C 230 28 280 50 340 38 C 400 26 450 50 510 40 C 570 30 620 50 680 40 C 730 32 770 44 800 38" fill="none" stroke="var(--band-hi)" stroke-width="1.2" opacity=".35"/>
+  <g fill="var(--band-ink)" opacity=".35">
+    <ellipse cx="90" cy="52" rx="40" ry="5"/><ellipse cx="260" cy="54" rx="50" ry="5"/><ellipse cx="450" cy="52" rx="36" ry="4"/><ellipse cx="620" cy="54" rx="46" ry="5"/>
+  </g>
+</svg>
+<svg class="band-motif" viewBox="0 0 150 56" preserveAspectRatio="xMaxYMax meet">
+  <circle cx="112" cy="20" r="8" fill="var(--band-sun)"/>
+  <g fill="none" stroke="var(--band-hi)" stroke-width="1.6" stroke-linecap="round"><path d="M40 16 q5 -4 10 0 q5 -4 10 0"/><path d="M64 8 q4 -3 8 0 q4 -3 8 0"/></g>
+  <g stroke="var(--band-deep)" stroke-width="1.6" stroke-linecap="round">
+    <path d="M96 56 Q 98 40 94 28"/><path d="M106 56 Q 108 42 112 32"/><path d="M118 56 Q 118 44 124 36"/><path d="M130 56 Q 132 46 128 38"/><path d="M142 56 Q 142 46 146 40"/>
+  </g>
+  <g fill="var(--band-ink)">
+    <ellipse cx="94" cy="26" rx="3" ry="7" transform="rotate(-14 94 26)"/><ellipse cx="112" cy="30" rx="3" ry="7" transform="rotate(18 112 30)"/>
+    <ellipse cx="124" cy="34" rx="2.6" ry="6" transform="rotate(24 124 34)"/><ellipse cx="128" cy="36" rx="2.6" ry="6" transform="rotate(-18 128 36)"/><ellipse cx="146" cy="38" rx="2.4" ry="5.5" transform="rotate(22 146 38)"/>
+  </g>
+</svg>
+</div>
+<div class="topbar">
+  <div class="wrap">
+    <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
+    <a class="phone" href="tel:01031315305">📞 010-3131-5305 (09:00–21:00)</a>
+  </div>
+</div>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="../index.html"><span class="mark">TF</span>티치핏순천</a>
+    <div class="navwrap">
+      <nav class="main">
+        <a href="../index.html">홈</a>
+        <a href="../teachers.html">선생님</a>
+        <a href="../regions.html">순천 학교별 과외</a>
+        <a href="../blog.html" aria-current="page">블로그</a>
+      </nav>
+      <a class="cta-btn" href="../apply.html">무료 상담 신청</a>
+      <button class="menu-btn" aria-label="메뉴">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav-wrap">
+    <nav class="mobile-nav">
+      <a href="../index.html">홈</a>
+      <a href="../teachers.html">선생님</a>
+      <a href="../regions.html">순천 학교별 과외</a>
+      <a href="../blog.html" aria-current="page">블로그</a>
+      <a href="../apply.html">무료 상담 신청</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<nav class="breadcrumb"><a href="../blog.html">블로그</a> / 고등 수학</nav>
+<section class="page-hero post-hero">
+  <span class="eyebrow">2026-10-07 · 고등 수학</span>
+  <h1>순천고등학교 수학과외, 지수의 확장과 지수법칙</h1>
+  <img class="post-cover" src="img/suncheon-hs-suhak-jisu.webp" width="720" height="720" alt="순천고등학교 수학과외 1:1 화상과외 안내" loading="eager">
+  <div class="hero-cta"><a class="cta-main" href="../apply.html">30분 무료체험 신청하기 →</a><span>상담·체험 모두 무료</span></div>
+</section>
+<section>
+  <article class="prose blog-prose">
+    <div class="intro-banner">
+  <span class="ib-tag">무료 상담 · 무료 체험</span>
+  <p>학생 학습 상태 진단과 학교 시험 분석을 함께 안내드려요.<br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요.</p>
+  <div class="ib-btns">
+    <a class="ib-kakao" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담 <i>↗</i></a>
+    <a class="ib-apply" href="../apply.html">무료체험 신청 <i>✨</i></a>
+  </div>
+</div><div class="summary-box"><strong>이 글 한눈에 보기</strong><ul><li>순천고등학교 학생이 지수를 어려워하는 이유</li><li>거듭제곱근의 뜻과 성질</li><li>0과 음의 정수 지수</li><li>유리수 지수와 실수 지수</li><li>지수법칙의 활용</li><li><b><mark class="free">30분 무료체험수업</mark></b>으로 먼저 확인해보실 수 있어요.</li></ul></div>
+<p>순천고등학교 2학년 학생들이 수학Ⅰ에서 처음 만나는 단원이 지수예요. 중학교에서 배운 자연수 지수의 지수법칙은 익숙하지만, 지수가 0, 음수, 분수, 실수로 확장되면서 a의 3분의 2제곱을 세제곱근 a의 제곱으로 바꾸는 변환이나 a⁻²을 1/a²으로 바꾸는 과정에서 막히는 경우가 많아요.</p><p>거듭제곱근의 성질에서 n이 짝수일 때와 홀수일 때의 차이를 놓치거나, aᵐ+aⁿ을 aᵐ⁺ⁿ으로 계산하는 것처럼 지수법칙을 덧셈에 잘못 적용하는 실수도 자주 나와요.</p><p>지수는 이어서 배우는 로그, 지수함수와 로그함수, 지수방정식과 부등식, 미적분의 지수함수 미분까지 고등학교 수학 전체에 쓰이는 핵심 개념이에요. 처음에 지수의 확장 원리와 계산 규칙을 정확히 잡아 두면 로그 단원도 훨씬 수월하게 이어 갈 수 있어요.</p><p>이 글에서는 순천고등학교 학생이 지수를 어려워하는 이유, 거듭제곱근의 뜻과 성질, 0과 음의 정수 지수, 유리수 지수와 실수 지수, 지수법칙의 활용, 그리고 1:1 화상 수학 수업 활용법까지 차례대로 정리해 드릴게요.</p>
+<div class="pbox"><h2>순천고등학교 학생이 지수를 어려워하는 이유</h2>
+<p>지수를 어려워하는 첫 번째 이유는 지수가 자연수가 아닐 때의 의미를 받아들이기 어렵다는 점이에요. a를 0번 곱하거나 -2번 곱한다는 것은 상상할 수 없어서, 왜 a⁰=1이고 a⁻²=1/a²인지 납득하지 못해요.</p>
+<p>두 번째 이유는 거듭제곱근과 제곱근을 헷갈리는 거예요. n제곱근이 n제곱해서 a가 되는 수라는 뜻을 정확히 알지 못하면 실수인 n제곱근의 개수를 묻는 문제에서 틀려요.</p>
+<p>세 번째 이유는 n이 짝수일 때와 홀수일 때의 차이를 놓치는 거예요. 음수의 세제곱근은 실수로 존재하지만 음수의 제곱근은 실수 범위에서 존재하지 않는데, 이 차이를 구분하지 못해요.</p>
+<p>네 번째 이유는 거듭제곱근과 유리수 지수 사이의 변환이 느린 거예요. n제곱근 aᵐ을 a의 m/n제곱으로 바꾸는 과정에서 분자와 분모를 거꾸로 쓰는 실수가 자주 나와요.</p>
+<p>다섯 번째 이유는 지수법칙을 덧셈에 적용하는 거예요. aᵐ×aⁿ=aᵐ⁺ⁿ은 맞지만 aᵐ+aⁿ=aᵐ⁺ⁿ은 틀려요. 곱셈 법칙을 덧셈에 잘못 적용하는 실수가 계산 문제의 단골 오답이에요.</p>
+<p>여섯 번째 이유는 지수법칙이 성립하는 조건을 놓치는 거예요. 유리수 지수와 실수 지수의 지수법칙은 밑이 양수일 때 성립하는데, 밑이 음수인 경우에 그대로 적용하면 틀린 결과가 나와요.</p>
+<p>일곱 번째 이유는 밑을 통일하지 않고 계산하는 거예요. 4와 8처럼 다른 밑으로 주어진 식은 2의 거듭제곱으로 밑을 통일해야 계산이 간단해지는데, 이 과정을 떠올리지 못해 막혀요.</p>
+<p>여덟 번째 이유는 곱셈공식을 활용한 지수 계산이 낯선 거예요. a의 1/2제곱과 a의 -1/2제곱의 합이 주어지고 제곱의 합을 구하는 문제는 곱셈공식을 함께 써야 해서 어렵게 느껴져요.</p>
+<p>지수는 지수법칙이 계속 성립하도록 지수를 확장했다는 원리를 이해하면 모든 정의가 자연스럽게 연결되는 단원이에요. 거듭제곱근의 뜻부터 차근차근 정리해 볼게요.</p>
+</div><div class="pbox"><h2>거듭제곱근의 뜻과 성질</h2>
+<p>n이 2 이상의 자연수일 때 n제곱해서 a가 되는 수, 즉 xⁿ=a를 만족하는 x를 a의 n제곱근이라고 해요. 2제곱근, 3제곱근, 4제곱근을 통틀어 거듭제곱근이라고 해요.</p>
+<p>복소수 범위에서 a의 n제곱근은 n개가 있지만, 고등학교 수학Ⅰ에서는 주로 실수인 거듭제곱근을 다뤄요. 실수인 n제곱근의 개수는 n이 짝수인지 홀수인지, a가 양수인지 음수인지에 따라 달라져요.</p>
+<p>n이 홀수이면 a의 부호와 상관없이 실수인 n제곱근은 하나예요. 8의 세제곱근 중 실수는 2이고, -8의 세제곱근 중 실수는 -2예요.</p>
+<p>n이 짝수이면 a가 양수일 때 실수인 n제곱근은 두 개, a가 0일 때 하나, a가 음수일 때는 없어요. 16의 네제곱근 중 실수는 2와 -2이고, -16의 네제곱근 중 실수는 없어요.</p>
+<p>이 내용은 y=xⁿ의 그래프와 y=a의 교점 개수로 이해하면 쉬워요. n이 홀수이면 그래프가 모든 실수 값을 지나서 교점이 하나, n이 짝수이면 그래프가 아래로 볼록해서 a의 부호에 따라 교점이 0, 1, 2개예요.</p>
+<p>a가 양수일 때 a의 n제곱근 중 양수인 것을 n제곱근 a라고 나타내요. 근호 기호 왼쪽 위에 n을 작게 써서 표시해요. 제곱근일 때는 2를 생략하고 √a로 써요.</p>
+<p>거듭제곱근의 성질은 제곱근의 성질을 확장한 거예요. 거듭제곱근끼리의 곱은 근호 안의 곱으로, 몫은 근호 안의 몫으로 바꿀 수 있고, 거듭제곱근의 거듭제곱근은 근호의 지수를 곱해요.</p>
+<p>이 성질들은 a, b가 양수일 때 성립한다는 조건을 꼭 확인해요. 음수가 포함된 경우에는 n이 홀수인지 짝수인지 따져서 판단해야 해요.</p>
+<div class="callout"><strong>핵심 정리</strong>거듭제곱근의 성질을 익혔다면 이제 지수를 0과 음의 정수로 확장하는 원리를 살펴볼 차례예요.</div>
+</div><div class="pbox"><h2>0과 음의 정수 지수</h2>
+<p>지수를 확장하는 기준은 지수법칙이 계속 성립하도록 정의하는 거예요. 자연수 지수에서 성립하던 aᵐ×aⁿ=aᵐ⁺ⁿ이 지수가 0이나 음수일 때도 성립하도록 의미를 정해요.</p>
+<p>a⁰을 생각해 봐요. a⁰×aⁿ=a⁰⁺ⁿ=aⁿ이 되어야 하므로 a⁰=1이어야 해요. 그래서 a가 0이 아닐 때 a⁰=1로 정의해요. 0⁰은 정의하지 않는다는 점도 함께 기억해요.</p>
+<p>a⁻ⁿ을 생각해 봐요. a⁻ⁿ×aⁿ=a⁰=1이 되어야 하므로 a⁻ⁿ=1/aⁿ이어야 해요. 그래서 a가 0이 아닐 때 a⁻ⁿ=1/aⁿ으로 정의해요.</p>
+<p>이렇게 정의하면 지수법칙이 그대로 성립해요. 2³÷2⁵=2⁻²=1/4처럼 나눗셈에서도 지수의 뺄셈으로 계산할 수 있어서 중학교 때처럼 지수의 크기를 비교해 경우를 나눌 필요가 없어져요.</p>
+<p>음의 지수를 다룰 때는 분수의 거듭제곱도 함께 연습해요. (2/3)⁻²=(3/2)²=9/4처럼 음의 지수는 역수의 양의 지수로 바꿀 수 있어요.</p>
+<p>음의 지수가 분모에 있는 경우도 자주 나와요. 1/a⁻³=a³처럼 분모의 음의 지수는 분자로 올리면서 지수의 부호를 바꾸어요.</p>
+<p>a⁻¹을 -a로 착각하는 실수를 주의해요. 2⁻¹은 -2가 아니라 1/2이에요. 음의 지수는 부호가 아니라 역수를 뜻한다는 점을 반복해서 확인해요.</p>
+<p>0과 음의 정수 지수를 포함한 계산을 충분히 연습하면 이후 유리수 지수와 실수 지수로 확장할 때도 같은 원리로 자연스럽게 이해할 수 있어요.</p>
+<p>정수 지수까지 정리했다면 이제 지수를 유리수와 실수로 확장하는 방법을 익혀요.</p>
+</div><div class="mid-cta"><strong>우리 아이에게 맞는지 궁금하시다면</strong><br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요. <a class="cta-btn" href="../apply.html">무료체험 신청하기 →</a></div><div class="pbox"><h2>유리수 지수와 실수 지수</h2>
+<p>지수를 유리수로 확장할 때도 지수법칙이 성립하도록 정의해요. a가 양수이고 m이 정수, n이 2 이상의 자연수일 때 a의 m/n제곱은 n제곱근 aᵐ으로 정의해요.</p>
+<p>예를 들어 8의 2/3제곱은 세제곱근 8²=세제곱근 64=4예요. 또는 (세제곱근 8)²=2²=4로 계산할 수도 있어요. 근호를 먼저 처리하면 수가 작아져서 계산이 편해요.</p>
+<p>변환할 때 분모가 근호의 지수, 분자가 거듭제곱의 지수라는 점을 기억해요. 분모와 분자를 거꾸로 쓰는 실수가 자주 나오니 뿌리는 아래에 있다처럼 분모가 근호라는 연결로 기억하면 좋아요.</p>
+<p>유리수 지수는 밑이 양수일 때만 정의해요. 밑이 음수이면 (-8)의 1/3제곱과 (-8)의 2/6제곱처럼 같은 지수를 다르게 나타냈을 때 값이 달라지는 모순이 생기기 때문이에요.</p>
+<p>실수 지수는 유리수 지수의 극한으로 정의해요. 2의 √2제곱은 √2에 가까워지는 유리수 1.4, 1.41, 1.414 등을 지수로 하는 값들이 가까워지는 값으로 정해요. 고등학교에서는 지수법칙이 그대로 성립한다는 것만 알면 충분해요.</p>
+<p>거듭제곱근으로 된 식을 유리수 지수로 바꾸면 계산이 훨씬 간단해져요. 제곱근 a×세제곱근 a는 a의 1/2제곱×a의 1/3제곱=a의 5/6제곱으로 바로 계산할 수 있어요.</p>
+<p>근호 안에 근호가 있는 식도 유리수 지수로 바꾸면 쉬워요. 제곱근 안의 세제곱근 a는 a의 1/3제곱의 1/2제곱이므로 a의 1/6제곱이에요.</p>
+<p>밑을 통일하는 연습도 중요해요. 4의 3/2제곱×8의 -1/3제곱은 4=2², 8=2³으로 바꾸어 2³×2⁻¹=2²=4로 계산해요. 밑을 소인수분해해서 같은 밑으로 맞추는 습관을 들여요.</p>
+<div class="callout"><strong>핵심 정리</strong>유리수 지수와 실수 지수를 이해했다면 마지막으로 지수법칙을 활용한 다양한 계산을 정리해요.</div>
+</div><div class="pbox"><h2>지수법칙의 활용</h2>
+<p>a, b가 양수이고 x, y가 실수일 때 지수법칙은 aˣ×aʸ=aˣ⁺ʸ, aˣ÷aʸ=aˣ⁻ʸ, (aˣ)ʸ=aˣʸ, (ab)ˣ=aˣbˣ예요. 이 네 가지 법칙이 모든 계산의 바탕이에요.</p>
+<p>지수법칙은 곱셈과 나눗셈, 거듭제곱에서만 성립해요. aˣ+aʸ는 aˣ⁺ʸ이 아니에요. 2²+2³=4+8=12이고, 2⁵=32가 아니라는 것을 예로 확인하면 덧셈에 적용하는 실수를 막을 수 있어요.</p>
+<p>(a+b)ˣ도 aˣ+bˣ이 아니에요. 지수법칙은 곱으로 묶인 식에만 분배할 수 있어요. 이 실수는 서술형에서 감점의 원인이 되니 반드시 주의해요.</p>
+<p>곱셈공식을 활용하는 문제가 자주 나와요. a의 1/2제곱+a의 -1/2제곱=3일 때 a+a⁻¹을 구하려면 양변을 제곱해요. 좌변은 a+2+a⁻¹이 되므로 a+a⁻¹=7이에요.</p>
+<p>이런 문제는 a의 1/2제곱을 하나의 문자 t로 놓고 생각하면 쉬워요. t+1/t=3일 때 t²+1/t²을 구하는 중학교 곱셈공식 문제와 같은 구조예요.</p>
+<p>aˣ=k처럼 주어진 조건으로 다른 식의 값을 구하는 문제도 있어요. 2ˣ=3일 때 4ˣ=(2²)ˣ=(2ˣ)²=9, 8ˣ=27처럼 밑을 바꾸어 주어진 값을 활용해요.</p>
+<p>분수 꼴의 식을 정리하는 문제는 분자와 분모에 같은 거듭제곱을 곱해서 간단히 해요. (aˣ-a⁻ˣ)/(aˣ+a⁻ˣ)에서 a²ˣ=k가 주어지면 분자와 분모에 aˣ을 곱해 (k-1)/(k+1)로 정리해요.</p>
+<p>계산 문제는 단계를 나누어 풀어요. 근호를 유리수 지수로 바꾸고, 밑을 통일하고, 지수법칙으로 지수를 계산하고, 마지막에 값을 구하는 순서를 지키면 복잡한 식도 실수 없이 풀 수 있어요.</p>
+<p>지수법칙을 자유롭게 활용할 수 있게 되면 로그 단원에서 지수와 로그를 오가는 변환도 훨씬 쉽게 해낼 수 있어요.</p>
+</div><div class="pbox"><h2>1:1 화상 수학 수업으로 지수 완성하기</h2>
+<p>티치핏 1:1 화상 수학 수업에서는 순천고등학교 학생의 교과서와 내신 기출 유형을 먼저 확인하고, 거듭제곱근의 성질이 약한지 지수법칙 계산이 약한지 약점부터 정확히 진단해요.</p>
+<p>화면 공유 판서로 y=xⁿ의 그래프를 그리며 실수인 거듭제곱근의 개수를 보여 주고, 지수법칙이 성립하도록 지수를 확장하는 원리를 단계별로 설명해 드려요.</p>
+<p>학생이 문제를 푸는 과정을 화면으로 실시간 확인하면서 지수법칙을 덧셈에 적용하거나 분모와 분자를 거꾸로 쓰는 실수를 바로 짚어 주고, 같은 유형을 반복해서 정확도를 높여요.</p>
+<p>내신 서술형 대비로 풀이 과정을 단계별로 쓰는 연습을 하고, 시험 전에는 학교 기출 유형에 맞춘 실전 문제로 마무리 점검을 해요.</p>
+<p>수업 후에는 개념 정리와 오답 노트, 과제를 정리해 드려서 혼자서도 복습을 이어 갈 수 있어요.</p>
+<p>중학교 제곱근이나 곱셈공식이 흔들리는 학생은 해당 부분을 함께 보충해서 지수 계산이 막히지 않도록 도와요.</p>
+<p>궁금한 점은 수업 중 언제든 편하게 질문할 수 있어서, 헷갈리는 부분을 그냥 넘기지 않고 그 자리에서 해결할 수 있어요.</p>
+<p>고등 수학 내신이 고민이시라면 <mark class="free">30분 무료체험수업</mark>으로 먼저 수업 방식을 확인해 보세요. 시험지나 교재를 준비해 오시면 약점 분석부터 함께 해 볼 수 있어요.</p>
+<p>상담과 체험은 모두 무료예요. 순천 지역에서 학원을 오가는 시간이 부담스러운 학생도 집에서 편안하게 수업을 받을 수 있어요.</p>
+<p>학부모님께는 수업마다 학생의 진도와 보완할 부분을 짧게 공유해 드려서 가정에서도 학습 상황을 함께 확인하실 수 있어요.</p>
+<p>지수를 확실히 잡아 두면 로그와 지수함수, 로그함수까지 수학Ⅰ 전반부가 훨씬 수월해져요.</p>
+<p><strong>Q. 거듭제곱근과 유리수 지수 변환이 헷갈려요.</strong><br>
+분모가 근호의 지수, 분자가 거듭제곱의 지수라는 원리를 예제로 반복하고 양방향 변환을 연습해서 빠르고 정확하게 바꾸도록 도와 드려요.</p>
+<p><strong>Q. 지수법칙을 자꾸 덧셈에 적용해요.</strong><br>
+간단한 수로 직접 계산해 비교하며 지수법칙이 곱셈과 거듭제곱에서만 성립한다는 것을 확인시켜서 실수를 확실히 줄여 드려요.</p>
+<p><strong>Q. 화상 수업으로 그래프 설명이 되나요?</strong><br>
+네, 화면 판서로 y=xⁿ의 그래프를 직접 그리며 거듭제곱근의 개수를 보여 드려서 충분히 이해할 수 있어요.</p>
+</div>
+  </article>
+</section>
+<section>
+  <div class="cta-big">
+  <div class="cta-big-text">
+    <span class="cta-badge">무료</span>
+    <h2>30분 무료체험수업 먼저 받아보세요</h2>
+    <p>이름과 연락처만 남기시면 24시간 이내에 담당자가 연락드려요. 체험 후 마음에 들 때만 결정하세요.</p>
+  </div>
+  <div class="cta-big-btns">
+    <a class="cta-main" href="../apply.html">무료체험 신청하기 →</a>
+    <a class="cta-sub" href="tel:01031315305">전화 010-3131-5305</a>
+    <a class="cta-sub" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담</a>
+  </div>
+</div>
+</section>
+<p style="margin-top:14px;"><a href="../blog.html">← 블로그 목록으로</a></p>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="../index.html" style="margin-bottom:10px;"><span class="mark">TF</span>티치핏순천</a>
+      <div class="fnav">
+        <a href="../services.html">화상과외 소개</a><a href="../process.html">매칭 방식</a><a href="../teachers.html">선생님</a><a href="../regions.html">순천 학교별 과외</a><a href="../blog.html">블로그</a>
+      </div>
+      <p class="disclaimer">전화 010-3131-5305 · 운영시간 09:00–21:00 · 상담 및 매칭 신청은 무료이며, 실제 수업 진행 여부와 비용은 상담 후 안내해 드립니다. 사업자 정보는 확정 후 별도 고지 예정입니다.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js?v=6af2d58710"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
+<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:01031315305">📞 전화상담</a>
+  <a class="msc-apply" href="../apply.html">무료 상담 신청</a>
+</div>
+<div class="q-modal" id="qModal" aria-hidden="true">
+  <form class="quick" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[티치핏순천] 팝업 상담 신청">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://suncheon.slovrest.com/thanks.html">
+    <input type="hidden" name="신청경로" value="팝업">
+    <input type="hidden" name="과목" class="q-in-sub">
+    <input type="hidden" name="학년" class="q-in-grade">
+    <button type="button" class="q-close" aria-label="닫기">✕</button>
+    <div class="q-step q-s1 on">
+      <span class="q-badge">30분 무료체험수업</span>
+      <div class="q-title">어떤 과목이 고민이세요?<small>과목만 고르시면 순천 학교 진도에 맞는 선생님을 찾아 연락드려요</small></div>
+      <div class="q-tiles"><button type="button" data-s="수학과외" data-h="빠진 단원부터 찾아 채워요"><b>📐</b>수학과외<i>빠진 단원부터 찾아 채워요</i></button><button type="button" data-s="영어과외" data-h="단어·문법·서술형까지"><b>🔤</b>영어과외<i>단어·문법·서술형까지</i></button><button type="button" data-s="국어과외" data-h="교과서 지문·문법·독해"><b>📖</b>국어과외<i>교과서 지문·문법·독해</i></button><button type="button" data-s="초등 전과목" data-h="기초 학습 습관부터"><b>✏️</b>초등 전과목<i>기초 학습 습관부터</i></button><button type="button" data-s="과학·사회" data-h="개념 정리와 서술형 대비"><b>🔬</b>과학·사회<i>개념 정리와 서술형 대비</i></button><button type="button" data-s="자기주도학습" data-h="공부 계획과 습관 만들기"><b>🧭</b>자기주도학습<i>공부 계획과 습관 만들기</i></button></div>
+      <div class="q-alt"><a href="tel:01031315305">📞 010-3131-5305</a><a href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카톡 상담</a></div>
+    </div>
+    <div class="q-step q-s2">
+      <button type="button" class="q-back">← 다시 고르기</button>
+      <div class="q-chosen"></div><div class="q-hint"></div>
+      <span class="q-lbl">학년</span>
+      <div class="q-chips"><button type="button">초1~3</button><button type="button">초4~6</button><button type="button">중1</button><button type="button">중2</button><button type="button">중3</button><button type="button">고1</button><button type="button">고2</button><button type="button">고3</button></div>
+      <span class="q-lbl">연락처</span>
+      <div class="q-row2"><input type="text" name="학생이름" placeholder="학생 이름 *" required><input type="tel" name="연락처" placeholder="연락처 *" required></div>
+      <input type="text" name="학교" placeholder="재학 중인 학교 (선택)">
+      <button type="submit" class="q-submit">무료체험 신청하기</button>
+      <p class="q-note">상담·체험 모두 무료 · 24시간 이내 연락드려요</p>
+    </div>
+  </form>
+</div>
+<button type="button" class="q-fab" id="qFab">⚡ 무료체험 신청</button>
+
+</body>
+</html>
