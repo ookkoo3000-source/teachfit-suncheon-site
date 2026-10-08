@@ -6,9 +6,44 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 07 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천풍덕중학교 국어과외, 설명 방법 정의 예시 비교 대조</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-pungdeok-ms-gugeo-seolmyeong-bangbeop.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-pungdeok-ms-gugeo-seolmyeong-bangbeop.html</guid>
+    <description>정의와 예시, 비교와 대조, 분류와 분석 같은 설명 방법을 헷갈려 설명문 문제에서 자주 틀리는 순천풍덕중학교 학생을 위해 설명 방법을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천주암중학교 수학과외, 부채꼴의 호의 길이와 넓이</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-juam-ms-suhak-buchaekkol.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-juam-ms-suhak-buchaekkol.html</guid>
+    <description>중심각과 호의 길이의 비례 관계를 놓치거나 부채꼴 넓이 공식에서 반지름과 지름을 헷갈리는 순천주암중학교 학생을 위해 원과 부채꼴을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천복성고등학교 수학과외, 등차수열과 등비수열 일반항</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-bokseong-hs-suhak-suyeol.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-bokseong-hs-suhak-suyeol.html</guid>
+    <description>등차수열과 등비수열의 일반항에서 n과 n-1을 헷갈리고 합 공식과 등차중항, 등비중항을 활용하지 못하는 순천복성고등학교 학생을 위해 수열을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>승주초등학교 영어과외, 계절과 계절 활동 말하기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-seungju-es-yeongeo-gyejeol.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-seungju-es-yeongeo-gyejeol.html</guid>
+    <description>계절 이름은 알지만 in spring처럼 전치사를 빠뜨리거나 좋아하는 계절과 그 계절에 하는 활동을 이어 말하지 못하는 승주초등학교 학생을 위해 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>순천인안초등학교 수학과외, 평균 구하기와 가능성</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-inan-es-suhak-pyeonggyun.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-inan-es-suhak-pyeonggyun.html</guid>
+    <description>평균을 구할 때 자료의 개수로 나누는 것을 잊거나 평균을 이용해 모르는 값을 구하지 못하고 가능성을 수로 나타내는 데서 막히는 순천인안초등학교 학생을 위해 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천고등학교 수학과외, 지수의 확장과 지수법칙</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-hs-suhak-jisu.html</link>
