@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>중학생 공부 계획표가 사흘을 못 갈 때, 계획을 다시 세우는 법</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-gongbu-gyehoekpyo-sahul.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-gongbu-gyehoekpyo-sahul.html</guid>
+    <description>공부 계획이 금방 무너지는 건 의지보다 계획이 너무 빡빡하거나 '무엇을 할지'가 아니라 '몇 시간 할지'로 짜여 있어서인 경우가 많아요. 지킬 수 있는 계획으로 바꾸는 방법을 학습 예시와 함께 정리했어요.</description>
+    <pubDate>Tue, 20 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>2028 수능 국어 범위, 화법과 언어·독서와 작문·문학을 모두 보나요</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-2028-suneung-gugeo-beomwi.html</link>
