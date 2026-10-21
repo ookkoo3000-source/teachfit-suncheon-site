@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>중학교 국어 시험, 교과서 지문만 외우면 될까요</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-jungdeung-gugeo-siheom-gyogwaseo-jimun.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-jungdeung-gugeo-siheom-gyogwaseo-jimun.html</guid>
+    <description>중학교 국어 시험은 교과서 지문이 범위여도 내용을 외운 것만으로는 부족한 경우가 많아요. 지문을 외우는 것과 이해하는 것의 차이, 수업 필기와 학습 목표로 시험 준비 순서를 정하는 방법을 정리했어요.</description>
+    <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>중학생 공부 계획표가 사흘을 못 갈 때, 계획을 다시 세우는 법</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-gongbu-gyehoekpyo-sahul.html</link>
