@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>공부하기 싫다는 중학생, 다그치기 전에 나눠 볼 이야기</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-gongbu-sileo-junghaksaeng-daehwa.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-gongbu-sileo-junghaksaeng-daehwa.html</guid>
+    <description>공부하기 싫다는 말 뒤에는 무엇을 해야 할지 모르겠다, 해도 안 된다, 다른 걱정이 있다처럼 서로 다른 이유가 있어요. 이유를 구분하는 질문과 이유별로 해 볼 수 있는 작은 변화를 정리했어요.</description>
+    <pubDate>Sat, 24 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>중학교 국어 시험, 교과서 지문만 외우면 될까요</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-jungdeung-gugeo-siheom-gyogwaseo-jimun.html</link>
