@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>학기 중 평소 공부, 예습과 복습 중 무엇에 시간을 더 써야 할까요</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-pyeongso-yeseup-boksup-bijung.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-pyeongso-yeseup-boksup-bijung.html</guid>
+    <description>학기 중에는 그날 배운 내용을 복습하는 데 시간을 더 쓰고, 예습은 다음 시간 내용을 가볍게 훑는 정도로 하는 것이 기본이에요. 복습이 밀린 아이, 수업을 따라가기 힘든 아이처럼 상황별로 비중을 바꾸는 기준을 정리했어요.</description>
+    <pubDate>Fri, 30 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>공부하기 싫다는 중학생, 다그치기 전에 나눠 볼 이야기</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-gongbu-sileo-junghaksaeng-daehwa.html</link>
