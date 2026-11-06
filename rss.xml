@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천동산중학교 학부모님이 묻는 교과서 출판사 확인과 자습서 고르는 법</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-dongsan-ms-gyogwaseo-chulpansa-jaseupseo.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-dongsan-ms-gyogwaseo-chulpansa-jaseupseo.html</guid>
+    <description>중학교 교과서는 같은 과목이라도 학교마다 출판사가 다를 수 있어서, 자습서나 평가문제집을 살 때는 먼저 아이 교과서의 출판사를 확인해야 해요. 순천동산중학교 학생의 교과서 출판사 확인법과 자습서·평가문제집 고르는 기준을 정리했어요.</description>
+    <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천금당고등학교 학부모님이 묻는 희망 학과, 정보는 어디서 찾나요</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-geumdang-hs-huimang-hakgwa-jeongbo.html</link>
