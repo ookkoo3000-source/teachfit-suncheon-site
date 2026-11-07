@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천제일고등학교 학부모님이 묻는 자습 시간, 어떻게 써야 남을까요</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-jeil-hs-jaseup-sigan-hwaryong.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-jeil-hs-jaseup-sigan-hwaryong.html</guid>
+    <description>자습 시간은 앉아 있는 시간보다 무엇을 끝냈는지가 중요해요. 순천제일고등학교 학생이 자습 시간을 시작 전 계획, 과목 배분, 끝난 뒤 확인으로 나눠 쓰는 방법과 집중이 흐트러질 때 바꿔 볼 것을 정리했어요.</description>
+    <pubDate>Sat, 07 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천동산중학교 학부모님이 묻는 교과서 출판사 확인과 자습서 고르는 법</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-dongsan-ms-gyogwaseo-chulpansa-jaseupseo.html</link>
