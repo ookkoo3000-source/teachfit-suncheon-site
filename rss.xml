@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>창촌초등학교 학부모님이 묻는 수학 풀이 과정을 안 쓰는 아이, 어떻게 연습할까요</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-changchon-es-suhak-puri-gwajeong-sseugi.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-changchon-es-suhak-puri-gwajeong-sseugi.html</guid>
+    <description>답만 쓰고 풀이 과정을 쓰지 않는 아이는 어디서 틀렸는지 스스로 찾기 어려워요. 창촌초등학교 학생처럼 초등 수학에서 풀이 과정 쓰기를 처음 연습하는 아이를 위해 한 줄 쓰기부터 시작하는 방법을 정리했어요.</description>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천제일고등학교 학부모님이 묻는 자습 시간, 어떻게 써야 남을까요</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-jeil-hs-jaseup-sigan-hwaryong.html</link>
