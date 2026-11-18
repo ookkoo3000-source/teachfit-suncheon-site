@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 17 Nov 2026 09:10:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>황전초등학교 학부모님이 묻는 연산이 느린 아이, 빨리 풀게 해야 할까요</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-hwangjeon-es-yeonsan-sokdo-neurin-ai.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-hwangjeon-es-yeonsan-sokdo-neurin-ai.html</guid>
+    <description>연산이 느린 아이에게 처음부터 속도를 요구하면 실수가 늘고 수학을 싫어하게 될 수 있어요. 황전초등학교 학생처럼 연산이 느린 아이의 원인을 찾고, 정확도를 먼저 잡은 뒤 속도를 올리는 방법을 정리했어요.</description>
+    <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>동산초등학교 학부모님이 묻는, 국어 교과서 수록 도서를 미리 읽어야 할까요</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-dongsan-es-gyogwaseo-sulok-dokseo-miri.html</link>
