@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>상사초등학교 학부모님이 묻는, 책은 많이 읽는데 독서록 쓰기는 싫어하는 아이</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-sangsa-es-dokseorok-sireohanda.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-sangsa-es-dokseorok-sireohanda.html</guid>
+    <description>책을 읽는 것과 그 내용을 글로 정리하는 것은 다른 활동이라서, 독서는 좋아해도 독서록은 부담스러울 수 있어요. 상사초등학교 학생이 독서록을 덜 부담스럽게 쓰도록 돕는 방법을 정리했어요.</description>
+    <pubDate>Sat, 21 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>황전초등학교 학부모님이 묻는 연산이 느린 아이, 빨리 풀게 해야 할까요</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-hwangjeon-es-yeonsan-sokdo-neurin-ai.html</link>
