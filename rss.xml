@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천금당중학교 학부모님이 묻는 시험 공부, 몇 주 전부터 무엇을 할까요</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-geumdang-ms-siheom-gyehoek-myeot-ju-jeon.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-geumdang-ms-siheom-gyehoek-myeot-ju-jeon.html</guid>
+    <description>시험 공부를 언제 시작해야 할지, 몇 주 동안 무엇을 해야 할지 막막한 중학생이 많아요. 순천금당중학교 학생이 시험 범위가 나온 뒤 주 단위로 계획을 세우는 방법을 정리했어요.</description>
+    <pubDate>Wed, 25 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>상사초등학교 학부모님이 묻는, 책은 많이 읽는데 독서록 쓰기는 싫어하는 아이</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-sangsa-es-dokseorok-sireohanda.html</link>
