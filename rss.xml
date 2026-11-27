@@ -6,9 +6,16 @@
   <description>순천 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://suncheon.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 26 Nov 2026 09:10:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>순천승남중학교 학부모님이 묻는 수학 시험 시간이 남아도 검토를 안 하는 아이</title>
+    <link>https://suncheon.slovrest.com/blog/suncheon-seungnam-ms-suhak-siheom-geomto-an-handa.html</link>
+    <guid>https://suncheon.slovrest.com/blog/suncheon-seungnam-ms-suhak-siheom-geomto-an-handa.html</guid>
+    <description>수학 시험이 일찍 끝나도 검토 없이 엎드려 있다가 아는 문제를 틀려 오는 중학생이 많아요. 순천승남중학교 학생처럼 검토를 하지 않는 아이가 남은 시간을 쓰는 순서를 정리했어요.</description>
+    <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>순천남산초등학교 학부모님이 묻는, 시계는 보는데 시간 계산은 못 하는 아이</title>
     <link>https://suncheon.slovrest.com/blog/suncheon-namsan-es-sigan-gyesan-mot-handa.html</link>
